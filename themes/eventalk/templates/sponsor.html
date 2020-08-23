@@ -1,0 +1,173 @@
+{% extends 'base.html' %}
+
+{% block title %}{{page.title}}{% endblock %}
+{% block content %}
+<div class="hero-wrap js-fullheight">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row no-gutters slider-text js-fullheight align-items-end justify-content-start"
+      data-scrollax-parent="true">
+      <div class="col-6 ftco-animate pb-5">
+        <h1 class="mb-3 bread" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">{{ page.title }}
+        </h1>
+      </div>
+      <div class="col-6 ftco-animate" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"
+        data-stellar-background-ratio="0.5"
+        style="height: 80%; width: 80%; background-image: url('images/mascot_1.png'); background-size: cover;">
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Sponsor Prospectus -->
+<section class="ftco-section">
+  <div class="container">
+    <div class="row justify-content-center mb-5 pb-3">
+      <div class="col-md-7 text-center heading-section ftco-animate">
+        <span class="subheading">Prospect and Benefit</span>
+        <!-- <h2 class="mb-4"><span>Our</span> Sponsor</h2> -->
+        <h2 class="mb-4"><span>Sponsor Prospect & Benefit</span></h2>
+      </div>
+    </div>
+    <div class="speaker text-justify">
+      {% for item in page.prospectus_and_benefits %}
+      <p>
+        {{ item }}
+      </p>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+<!-- Sponsor Option -->
+<section class="ftco-section bg-light">
+  <div class="container">
+    <div class="row justify-content-center mb-5 pb-3">
+      <div class="col-md-7 heading-section ftco-animate text-center">
+        <span class="subheading">Option</span>
+        <h2 class="mb-1"><span>Sponsorship Option</span></h2>
+      </div>
+    </div>
+    <div class="justify-content-center table-responsive">
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col"></th>
+            <th class="text-center" scope="col">Diamond</th>
+            <th class="text-center" scope="col">Platinum</th>
+            <th class="text-center" scope="col">Gold</th>
+            <th class="text-center" scope="col">Silver</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for sponsorship_option in page.sponsorship_options %}
+          {% set list_sponsorship_option = sponsorship_option.split(',') %}
+          <tr>
+            {% set ns = namespace(i=true) %}
+            {% for item in list_sponsorship_option %}
+            {% if ns.i == true %}
+            <th scope="row">{{ item }}</th>
+            {% set ns.i = false %}
+            {% else %}
+            <td class="text-center">{{ item }}</td>
+            {% endif %}
+            {% endfor %}
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+    <br>
+    <div class="row justify-content-center mb-5 pb-3">
+      <div class="col-md-7 heading-section ftco-animate text-center">
+        <h2 class="mb-1"><span> Extra Sponsorship Option</span></h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6 ftco-animate">
+        <div class="block-7">
+          <div class="text-center">
+            <h2 class="heading">Lanyard Sponshorship</h2>
+            <span class="price"><sup></sup> <span class="number">10 MO</span></span>
+            <h3 class="heading-2 my-4">Enjoy The Features</h3>
+            <ul class="pricing-text mb-5">
+              <li>Logo on the Lanyard</li>
+            </ul>
+            <span style="color: red">Limited to One Sponsor</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 ftco-animate">
+        <div class="block-7">
+          <div class="text-center">
+            <h2 class="heading"> <strike> Tote Bag Sponshorship </strike> </h2>
+            <span class="price"><sup></sup> <span class="number"> <strike> 10 MO </strike> </span></span>
+            <h3 class="heading-2 my-4" style="color: red;"> SOLD OUT </h3>
+            <ul class="pricing-text mb-5">
+              <li> <strike> Logo on the Tote Bag </strike> </li>
+            </ul>
+            <span style="color: red"> <strike> Limited to One Sponsor </strike> </span>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 ftco-animate">
+        <div class="block-7">
+          <div class="text-center">
+            <h2 class="heading">Snacks Sponshorship</h2>
+            <span class="price"><sup></sup> <span class="number">5 MO</span></span>
+            <h3 class="heading-2 my-4">Enjoy The Features</h3>
+            <ul class="pricing-text mb-5">
+              <li>Logo on the Lanyard</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 ftco-animate">
+        <div class="block-7">
+          <div class="text-center">
+            <h2 class="heading">Soft Drinks Sponshorship</h2>
+            <span class="price"><sup></sup> <span class="number">5 MO</span></span>
+            <h3 class="heading-2 my-4">Enjoy The Features</h3>
+            <ul class="pricing-text mb-5">
+              <li>The drinks will be marked as provided by your company </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-12 ftco-animate">
+        <div class="block-7">
+          <div class="text-center">
+            <h2 class="heading">Party/Dinner Sponshorship</h2>
+            <span class="price"><sup></sup> <span class="number">20 MO</span></span>
+            <h3 class="heading-2 my-4">Enjoy The Features</h3>
+            <ul class="pricing-text mb-5">
+              <li>Official sponsor of the food at the PyCon Indonesia party at the end of day </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="ftco-section-parallax">
+  <div class="parallax-img d-flex align-items-center">
+    <div class="container">
+      <div class="row d-flex justify-content-center">
+        <div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
+          <h2>Sponshorship Invitation</h2>
+          <div class="row d-flex justify-content-center mt-4 mb-4">
+            <div class="col-md-8">
+              <a class="btn" style="background-color: #3F5FFF; color: white;"
+                href="mailto: farahclara@python.or.id?subject=Apply%20Sponsorhip%20PYCON%202019">
+                Apply Here
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock %}
+{% block custom_js %}
+<script>
+</script>
+{% endblock %}

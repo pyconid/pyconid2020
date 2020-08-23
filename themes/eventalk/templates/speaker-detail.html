@@ -1,0 +1,147 @@
+{% extends 'base.html' %}
+
+{% block title %}{{page.talk_title}} - {{page.speaker_name}}{% endblock %}
+
+{% block metaHtml %}
+	<meta name="name" content="{{ page.talk_title }}">
+	<meta name="description" content="{% for speaker_abstract in page.speaker_abstract %}{{ speaker_abstract }}{% endfor %}">
+{% endblock %}
+
+{% block facebookMeta %}
+    <meta property="og:title" content="{{ page.talk_title }}">
+    <meta property="og:description" content="{% for speaker_abstract in page.speaker_abstract %}{{ speaker_abstract }}{% endfor %}">
+	<meta property="og:url" content="{{ SITEURL }}/{{ page.slug }}">
+	{% if page.speaker_photo != "" %}
+		<meta property="og:image" content="https://pycon.id{{ page.speaker_photo }}">
+	{% else %}
+		<meta property="og:image" content="https://pycon.id/images/pycon18_4.jpg">
+	{% endif %}
+{% endblock %}
+
+{% block twitterMeta %}
+	{% if page.speaker_photo != "" %}
+		<meta name="twitter:image" content="https://pycon.id{{ page.speaker_photo }}">
+	{% else %}
+		<meta name="twitter:image" content="https://pycon.id/images/pycon18_4.jpg">
+	{% endif %}
+    <meta name="twitter:title" content="{{ page.talk_title }}">
+    <meta name="twitter:description" content="{% for speaker_abstract in page.speaker_abstract %}{{ speaker_abstract }}{% endfor %}">
+{% endblock twitterMeta %}
+
+{% block content %}
+<!-- Tittle Event Schedule -->
+<div class="hero-wrap js-fullheight">
+	<div class="overlay"></div>
+	<div class="container">
+		<div class="row no-gutters slider-text js-fullheight align-items-end justify-content-start"
+			data-scrollax-parent="true">
+			<div class="col-6 ftco-animate pb-5">
+				<h1 class="mb-3 bread" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">{{ page.title }}
+				</h1>
+			</div>
+			<div class="col-6 ftco-animate" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"
+				data-stellar-background-ratio="0.5"
+				style="height: 80%; width: 80%; background-image: url('{{ SITEURL }}/images/mascot_1.png'); background-size: cover;">
+			</div>
+		</div>
+	</div>
+</div>
+<!--Content Event Schedule -->
+<section class="ftco-section bg-light">
+	<div class="container">
+		<div class="row justify-content-center mb-2 pb-1">
+			<div class="text-center heading-section ftco-animate">
+				<h2>{{ page.talk_title }}</h2>
+				<h4>{{ page.talk_language }} Talk</h4>
+			</div>
+		</div>
+		<br>
+		<div class="ftco-search">
+			<div class="row">
+				<div class="col-sm-5 justify-content-center" style="vertical-align:middle;text-align:center;">
+					<div class="col-sm-12 mb-4 justify-content-center">
+						{% if page.speaker_photo != "" %}
+							<img src="{{ page.speaker_photo }}" class="img-fluid img-thumbnail" alt="{{ page.speaker_name }}">
+						{% else %}
+							<img style="max-height: 350px;" src="{{ SITEURL }}/images/mascot_1.png" class="img-thumbnail" alt="{{ page.speaker_name }}">
+						{% endif %}
+					</div>
+					<div class="mb-2 col-sm-12">
+
+						{% if page.speaker_website != "" %}
+						<a target="_blank" href="{{ page.speaker_website }}">
+							<i class="material-icons mr-4">public</i>
+						</a>
+						{% else %}
+						<i class="material-icons mr-4">public</i>
+						{% endif %}
+
+						{% if page.speaker_ppt != "" %}
+						<a target="_blank" href="{{ page.speaker_ppt }}">
+							<i class="material-icons  mr-4">menu_book</i>
+						</a>
+						{% else %}
+						<i class="material-icons mr-4">menu_book</i>
+						{% endif %}
+
+						{% if page.speaker_video_id != "" %}
+						<a target="_blank" href="https://www.youtube.com/watch?v={{ page.speaker_video_id }}">
+							<i class="material-icons mr-4">ondemand_video</i>
+						</a>
+						{% else %}
+						<i class="material-icons mr-4">ondemand_video</i>
+						{% endif %}
+						
+					</div>
+				</div>
+				<div class="col-sm-7 justify-content-center mb-2 pb-1">
+					<div class="speaker-wrap">
+						<h2 class="mb-2">{{ page.speaker_name }}</h2>
+						<p class="mb-2" style="text-align: justify;text-justify: inter-word;">
+							from {{ page.speaker_organization }}
+						</p>
+						<p class="mb-2" style="text-align: justify;text-justify: inter-word;">
+							<b>{{ page.short_bio }}</b>
+						</p>
+					</div>
+					<div class="speaker-wrap">
+						<p class="mb-2" style="text-align: justify;text-justify: inter-word;">
+							"{{ page.short_intro }}"
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-12 tab-wrap">
+					<div class="tab-content">
+						<div class="tab-pane fade show active" role="tabpanel">
+
+							<div class="speaker-wrap">
+								<p class="mb-2" style="text-align: justify;text-justify: inter-word;">
+									{{ page.speaker_bio }}
+								</p>
+							</div>
+
+							<div class="speaker-wrap ftco-animate" id="details">
+								<h2 class="mb-3" style="text-align: justify;text-justify: inter-word;">{{ page.talk_title }}</h2>
+								{% for speaker_abstract in page.speaker_abstract %}
+									<p class="mb-2" style="text-align: justify;text-justify: inter-word;"	>
+									{{ speaker_abstract }}
+									</p>
+								{% endfor %}
+								<p class="mb-2" style="text-align: justify;text-justify: inter-word;">{{ page.content }}</p>
+							</div>
+
+							{% if page.speaker_video_id != "" %}
+							<div class="embed-responsive embed-responsive-16by9 justify-content-center mb-2 pb-1" style="vertical-align:middle;text-align:center;">
+								<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/{{ page.speaker_video_id }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</div>
+							{% endif %}
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+</section>
+{% endblock %}

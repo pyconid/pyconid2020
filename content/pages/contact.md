@@ -1,0 +1,2 @@
+title: Contact
+Template: contact
