@@ -1,5 +1,5 @@
 title: Call For Paper
-Template: default_page
+Template: general
 
 ### Speak at PyCon ID
 

@@ -5,9 +5,6 @@ from __future__ import unicode_literals
 AUTHOR = 'PyCon ID 2020'
 SITENAME = 'Python Conference Indonesia 2020'
 SITEURL = ''
-SITESUBTITLE = 'Python Indonesia'
-DESCRIPTION = 'Python Indonesia'
-SITEIMAGE = '/images/logo.png'
 
 PATH = 'content'
 
@@ -41,8 +38,6 @@ STATIC_PATH = ['images', 'pdfs']
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
-
-# Page Config
 PAGE_PATHS = ['pages']
 PAGE_URL = '{slug}'
 PAGE_SAVE_AS = '{slug}.html'
@@ -56,15 +51,14 @@ ARTICLE_SAVE_AS = '{category}/{slug}.html'
 
 # Menu Item Config
 MENUITEMS = (
-    # ('About', 'about'),
     ('Our Speakers', 'speaker'),
-    ('Schedule & Layout', 'schedule-layout'),
+    ('Schedule', 'schedule'),
     # ('Speakers', 'speakers'),
     ('Sponsorship Opportunity', 'sponsor'),
     # ('Participant', 'participant-mail-list'),
     # ('Speak at Pycon ID', 'call-for-paper'),
     ('Code of Conduct', 'code-of-conduct'),
+    ('Blog', 'blog'),
     ('Our Patrons', 'patron')
-    # ('Blog', 'blog'),
     # ('Contact', 'contact'),
 )
