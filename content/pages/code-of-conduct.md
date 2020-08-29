@@ -1,6 +1,5 @@
 title: Code of Conduct
-Template: code-of-conduct
-
+Template: general
 ### What is Code of Conduct?
 
 A code of conduct is a set of rules outlining the norms, rules, and responsibilities of, and or proper practices for an individual. By attending PyCon ID 2019, you agree with the Code of Conduct. 
