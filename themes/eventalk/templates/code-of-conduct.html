@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block title %}{{page.title}}{% endblock %}
+
+{% block content %}
+<section class="section-with-bg">
+    {{ page.content }}
+</section>
+
+{% include 'sponsors-list' %}
+{% endblock %}
