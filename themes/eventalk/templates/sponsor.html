@@ -1,0 +1,125 @@
+{% extends 'base.html' %}
+
+{% block title %}{{page.title}}{% endblock %}
+
+{% block content %}
+<!-- ======= Supporters Section ======= -->
+<section class="sponsor-page section-with-bg">
+    <div class="container" data-aos="fade-up">
+        <div class="section-header">
+            <h2>Prospect & Benefit</h2>
+            <p>Sponsor Prospect & Benefit</p>
+        </div>
+        <div class="text-justify">
+            {% for item in page.prospectus_and_benefits %}
+            <p>
+                {{ item }}
+            </p>
+            {% endfor %}
+        </div>
+    </div>
+
+    <div class="container mt-100" data-aos="fade-up">
+        <div class="section-header">
+            <h2>Option</h2>
+            <p>Sponsorship Option</p>
+        </div>
+        <div class="justify-content-center table-responsive">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col"></th>
+                        <th class="text-center" scope="col">Diamond</th>
+                        <th class="text-center" scope="col">Platinum</th>
+                        <th class="text-center" scope="col">Gold</th>
+                        <th class="text-center" scope="col">Silver</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for sponsorship_option in page.sponsorship_options %}
+                        {% set list_sponsorship_option = sponsorship_option.split(',') %}
+                        <tr>
+                            {% set ns = namespace(i=true) %}
+                            {% for item in list_sponsorship_option %}
+                                {% if ns.i == true %}
+                                    <th scope="row">{{ item }}</th>
+                                    {% set ns.i = false %}
+                                {% else %}
+                                    <td class="text-center">{{ item }}</td>
+                                {% endif %}
+                            {% endfor %}
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="container mt-100" data-aos="fade-up">
+        <div class="section-header">
+            <h2>Sponsors</h2>
+            <p>Our Sponsorship</p>
+        </div>
+
+        <div class="row no-gutters supporters-wrap clearfix" data-aos="zoom-in" data-aos-delay="100">
+
+            <div class="col-lg-3 col-md-4 col-xs-6">
+                <div class="supporter-logo">
+                    <img src="{{SITEURL}}/theme/img/supporters/1.png" class="img-fluid" alt="">
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-xs-6">
+                <div class="supporter-logo">
+                    <img src="{{SITEURL}}/theme/img/supporters/2.png" class="img-fluid" alt="">
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-xs-6">
+                <div class="supporter-logo">
+                    <img src="{{SITEURL}}/theme/img/supporters/3.png" class="img-fluid" alt="">
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-xs-6">
+                <div class="supporter-logo">
+                    <img src="{{SITEURL}}/theme/img/supporters/4.png" class="img-fluid" alt="">
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-xs-6">
+                <div class="supporter-logo">
+                    <img src="{{SITEURL}}/theme/img/supporters/5.png" class="img-fluid" alt="">
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-xs-6">
+                <div class="supporter-logo">
+                    <img src="{{SITEURL}}/theme/img/supporters/6.png" class="img-fluid" alt="">
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-xs-6">
+                <div class="supporter-logo">
+                    <img src="{{SITEURL}}/theme/img/supporters/7.png" class="img-fluid" alt="">
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-xs-6">
+                <div class="supporter-logo">
+                    <img src="{{SITEURL}}/theme/img/supporters/8.png" class="img-fluid" alt="">
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section><!-- End Sponsors Section -->
+{% endblock %}
+
+{% block custom_js %}
+<script>
+
+</script>
+{% endblock %}
