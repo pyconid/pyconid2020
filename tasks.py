@@ -8,9 +8,11 @@ import datetime
 from invoke import task
 from invoke.util import cd
 from pelican.server import ComplexHTTPRequestHandler, RootedHTTPServer
+from livereload import Server
 
 CONFIG = {
     # Local path configuration (can be absolute or relative to tasks.py)
+    # 'content_path': 'content',
     'deploy_path': 'output',
     # Github Pages configuration
     'github_pages_branch': 'master',
@@ -85,3 +87,9 @@ def gh_pages(c):
     c.run('ghp-import -b {github_pages_branch} '
           '-m {commit_message} '
           '{deploy_path} -p'.format(**CONFIG))
+
+@task
+def livereload(c):
+    server = Server()
+    server.watch(CONFIG['content_path'], lambda: build(c))
+    server.serve(root=CONFIG['deploy_path'], port=CONFIG['port'])

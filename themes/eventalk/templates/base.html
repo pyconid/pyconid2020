@@ -46,7 +46,7 @@
             <div id="logo" class="pull-left">
                 <!-- Uncomment below if you prefer to use a text logo -->
                 <!-- <h1><a href="#intro">The<span>Event</span></a></h1>-->
-                <a href="index.html" class="scrollto"><img src="/images/logo.png" alt="" title=""></a>
+                <a href="/" class="scrollto"><img src="/images/pycon-logo-cropped.png" alt="" title=""></a>
             </div>
 
             <nav id="nav-menu-container">
@@ -55,7 +55,7 @@
                     {%set menu_class = ''%}
                     {%if page%}
                     {%if page.template == m[1]%}
-                    {%set menu_class = menu_class + 'menu-active'%}
+                    <!-- {%set menu_class = menu_class + 'menu-active'%} -->
                     {%endif%}
                     {%endif%}
                     <li class="{{menu_class}}"><a href="{{SITEURL}}/{{m[1]}}">{{m[0]}}</a></li>
