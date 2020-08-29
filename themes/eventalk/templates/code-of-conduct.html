@@ -3,9 +3,16 @@
 {% block title %}{{page.title}}{% endblock %}
 
 {% block content %}
-<section class="section-with-bg">
-    {{ page.content }}
+<section class="section-with-bg default-page">
+    <div class="container" data-aos="fade-up">
+        <div class="section-header">
+            <h2>Code of Conduct</h2>
+        </div>
+        <div class=" p-5 border rounded text-justify">
+            {{ page.content }}
+        </div>
+    </div>
 </section>
 
-{% include 'sponsors-list' %}
+{% include 'sponsors-list.html' %}
 {% endblock %}
