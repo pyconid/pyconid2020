@@ -135,7 +135,7 @@ h1, h2, h3, h4, h5, h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  height: 90px;
+  /* height: 90px; */
   padding: 25px 0;
   position: fixed;
   left: 0;
@@ -167,6 +167,13 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.5s;
 }
 
+#header.header-nav-scrolled, #header.header-fixed {
+  background: rgba(6, 12, 34, 0.98);
+  /* height: 80px; */
+  /* padding: 15px 0; */
+  /* transition: all 0.5s; */
+}
+
 #header #logo h1 {
   font-size: 36px;
   margin: 0;
@@ -189,7 +196,7 @@ h1, h2, h3, h4, h5, h6 {
 #header #logo img {
   padding: 0;
   margin: 0;
-  max-height: 40px;
+  max-height: 45px;
 }
 
 /*--------------------------------------------------------------
