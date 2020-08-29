@@ -176,7 +176,7 @@ console.log("Load Success!");
         }
         main_nav.find('a[href="#' + $(this).attr('id') + '"]').parent('li').addClass('menu-active');
       }
-      if (cur_pos < 300) {
+      if (cur_pos < 300 && window.location.pathname != '/') {
         // $(".nav-menu li:first").addClass('menu-active');
         $('#header').addClass('header-scrolled');
         $('#header').removeClass('header-nav-scrolled');

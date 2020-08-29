@@ -107,7 +107,9 @@ h1, h2, h3, h4, h5, h6 {
   height: 5px;
   background: #f82249;
   bottom: 0;
-  left: calc(50% - 25px);
+  /* left: calc(50% - 25px); */
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .section-header h2 {
@@ -293,7 +295,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu > li {
-  margin-left: 8px;
+  margin-left: 14px;
 }
 
 .nav-menu > li > a:before {
@@ -1519,6 +1521,16 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 30px;
 }
 
+#footer .footer-top .footer-info .envelope{
+  font-size: 24px;
+  color: #eee;
+  line-height: 1;
+  text-align: center;
+  width: 48px;
+  height: 48px;
+  transition: 0.3s;
+}
+
 #footer .footer-top .footer-info h3 {
   font-size: 26px;
   margin: 0 0 20px 0;
@@ -1526,35 +1538,58 @@ body.mobile-nav-active #mobile-nav-toggle {
   line-height: 1;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
-  color: #fff;
+  /* color: #fff; */
+  color: rgba(202, 206, 221, 0.8) !important;
 }
 
 #footer .footer-top .footer-info img {
-  height: 40px;
+  height: 60px;
   margin-bottom: 10px;
 }
 
 #footer .footer-top .footer-info p {
   font-size: 14px;
   line-height: 24px;
-  margin-bottom: 0;
+  margin: 8px 0 0 0;
+  letter-spacing: 0.8px;
+  font-weight: 500;
   font-family: "Raleway", sans-serif;
-  color: #fff;
+  /* color: #fff; */
+  color: rgba(202, 206, 221, 0.8);
 }
 
 #footer .footer-top .social-links a {
-  font-size: 18px;
+  font-size: 24px;
   display: inline-block;
   background: #222636;
   color: #eee;
   line-height: 1;
-  padding: 8px 0;
-  margin-right: 4px;
+  padding: 12px;
+  margin-right: 16px;
   border-radius: 50%;
   text-align: center;
-  width: 36px;
-  height: 36px;
+  width: 48px;
+  height: 48px;
   transition: 0.3s;
+  margin-top: 24px;
+}
+
+@media (max-width: 991px) {
+  #footer .footer-top .social-links a {
+    font-size: 18px;
+    display: inline-block;
+    background: #222636;
+    color: #eee;
+    line-height: 1;
+    padding: 8px;
+    margin-right: 8px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+    margin-top: 24px;
+  }
 }
 
 #footer .footer-top .social-links a:hover {
@@ -1641,6 +1676,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 #footer .copyright {
   text-align: center;
   padding-top: 30px;
+  letter-spacing: 0.8px;
+  font-weight: 600;
+  font-family: "Raleway", sans-serif;
+  /* color: #fff; */
+  color: rgba(202, 206, 221, 0.8);
 }
 
 #footer .credits {
