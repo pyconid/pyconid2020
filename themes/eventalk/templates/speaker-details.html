@@ -2,38 +2,32 @@
 
 {%block title%}{{page.talk_title}} - {{page.speaker_name}}{%endblock%}
 
-
+{% block content %}
 <!-- ======= Speaker Details Sectionn ======= -->
-<section id="speakers-details">
+<section id="speakers-details" class="section-with-bg default-page">
   <div class="container">
     <div class="section-header">
       <h2>Speaker Details</h2>
-      <p>Praesentium ut qui possimus sapiente nulla.</p>
+      <p>{{ page.speaker_talk }}</p>
     </div>
 
     <div class="row">
       <div class="col-md-6">
-        <img src="assets/img/speakers/1.jpg" alt="Speaker 1" class="img-fluid">
+        <img src="{{ SITEURL }}/theme/img/speakers/{{ page.speaker_img }}" alt="{{ page.speaker_name }}" class="img-fluid">
       </div>
 
       <div class="col-md-6">
         <div class="details">
-          <h2>Brenden Legros</h2>
+          <h2>{{ page.speaker_name }}</h2>
+          <h6><i>{{ page.speaker_from }}</i></h6>
+          
+          {{ page.speaker_bio }}
+          <hr>
           <div class="social">
-            <a href=""><i class="fa fa-twitter"></i></a>
-            <a href=""><i class="fa fa-facebook"></i></a>
-            <a href=""><i class="fa fa-google-plus"></i></a>
-            <a href=""><i class="fa fa-linkedin"></i></a>
+            <a href="{{ page.speaker_twitter }}"><i class="fa fa-twitter"></i></a>
+            <a href="{{ page.speaker_facebook }}"><i class="fa fa-facebook"></i></a>
+            <a href="{{ page.speaker_linkedin }}"><i class="fa fa-linkedin"></i></a>
           </div>
-          <p>Voluptatem perferendis sed assumenda voluptatibus. Laudantium molestiae sint. Doloremque odio dolore dolore
-            sit. Quae labore alias ea omnis ex expedita sapiente molestias atque. Optio voluptas et.</p>
-
-          <p>Aboriosam inventore dolorem inventore nam est esse. Aperiam voluptatem nisi molestias laborum ut. Porro
-            dignissimos eum. Tempore dolores minus unde est voluptatum incidunt ut aperiam.</p>
-
-          <p>Et dolore blanditiis officiis non quod id possimus. Optio non commodi alias sint culpa sapiente nihil ipsa
-            magnam. Qui eum alias provident omnis incidunt aut. Eius et officia corrupti omnis error vel quia omnis
-            velit. In qui debitis autem aperiam voluptates unde sunt et facilis.</p>
         </div>
       </div>
 
@@ -41,3 +35,6 @@
   </div>
 
 </section>
+
+{% include 'sponsors-list.html' %}
+{% endblock %}

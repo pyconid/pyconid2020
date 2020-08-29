@@ -1,0 +1,85 @@
+{% extends 'base.html' %}
+
+{% block title %}{{page.title}}{% endblock %}
+
+{% block content %}
+<section class="default-page section-with-bg">
+    <div class="container" data-aos="fade-up">
+        <div class="section-header">
+            <h2>Prospect & Benefit</h2>
+            <p>Sponsor Prospect & Benefit</p>
+        </div>
+        <div class="text-justify">
+            {% for item in page.prospectus_and_benefits %}
+            <p>
+                {{ item }}
+            </p>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container mt-5" data-aos="fade-up">
+        <div class="section-header">
+            <h2>Option</h2>
+            <p>Sponsorship Option</p>
+        </div>
+        <div class="justify-content-center table-responsive">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col"></th>
+                        <th class="text-center" scope="col">Diamond</th>
+                        <th class="text-center" scope="col">Platinum</th>
+                        <th class="text-center" scope="col">Gold</th>
+                        <th class="text-center" scope="col">Silver</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for sponsorship_option in page.sponsorship_options %}
+                        {% set list_sponsorship_option = sponsorship_option.split(',') %}
+                        <tr>
+                            {% set ns = namespace(i=true) %}
+                            {% for item in list_sponsorship_option %}
+                                {% if ns.i == true %}
+                                    <th scope="row">{{ item }}</th>
+                                    {% set ns.i = false %}
+                                {% else %}
+                                    <td class="text-center">{{ item }}</td>
+                                {% endif %}
+                            {% endfor %}
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+
+<section class="section-with-bg">
+    <div class="container mt-lg-3 pt-5 pb-1" data-aos="fade-up">
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
+                <h2>Sponshorship Invitation</h2>
+                <div class="row d-flex justify-content-center mt-4 mb-4">
+                    <div class="col-md-8">
+                    <a class="btn" style="background-color: #3F5FFF; color: white;"
+                        href="mailto: farahclara@python.or.id?subject=Apply%20Sponsorhip%20PYCON%202019">
+                        Apply Here
+                    </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% include 'sponsors-list.html' %}
+{% endblock %}
+
+{% block custom_js %}
+<script>
+
+</script>
+{% endblock %}

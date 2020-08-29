@@ -1,0 +1,6 @@
+__pycache__
+output/
+.vscode/
+venv/
+pelicanconf.pyc
+.env
