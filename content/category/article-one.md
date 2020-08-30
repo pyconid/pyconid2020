@@ -1,10 +1,10 @@
-title : Article
+title: Blog Detail
 Template: blog-single
-article_title: Second optio tempore voluptas dignissimos cumque fuga qui quibusdam quia
+article_title: Dolorum optio tempore voluptas dignissimos cumque fuga qui quibusdam quia
 author: Adif Dwi Maulana
 date: 30 August 2020
 heroimage: pycon-logo-cropped.png
-slug: blog/article-two
+slug: article-one
 
  Similique neque nam consequuntur ad non maxime aliquam quas. Quibusdam animi praesentium. Aliquam et laboriosam eius aut nostrum quidem aliquid dicta. Et eveniet enim. Qui velit est ea dolorem doloremque deleniti aperiam unde soluta. Est cum et quod quos aut ut et sit sunt. Voluptate porro consequatur assumenda perferendis dolore.
 
