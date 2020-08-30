@@ -42,6 +42,7 @@ PAGE_PATHS = ['pages']
 PAGE_URL = '{slug}'
 PAGE_SAVE_AS = '{slug}.html'
 SCHEDULE_URL = '/schedule'
+# BLOG_URL = '/blog'
 
 
 # Articel Config
