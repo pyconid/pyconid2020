@@ -42,6 +42,7 @@ PAGE_PATHS = ['pages']
 PAGE_URL = '{slug}'
 PAGE_SAVE_AS = '{slug}.html'
 SCHEDULE_URL = '/schedule'
+# BLOG_URL = '/blog'
 
 
 # Articel Config
@@ -51,8 +52,8 @@ ARTICLE_SAVE_AS = '{category}/{slug}.html'
 
 # Menu Item Config
 MENUITEMS = (
-    ('Our Speakers', 'speaker'),
-    ('Schedule', 'schedule'),
+    ('Our Speakers', 'speakers'),
+    # ('Schedule', 'schedule'),
     # ('Speakers', 'speakers'),
     ('Sponsorship Opportunity', 'sponsor'),
     # ('Participant', 'participant-mail-list'),

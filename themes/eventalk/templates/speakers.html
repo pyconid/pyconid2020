@@ -1,0 +1,58 @@
+{%extends 'base.html'%}
+
+{%block title%}
+    {{page.title}}
+{%endblock%}
+
+{% block content %}
+<section id="speakers" class="section-with-bg default-page">
+    <div class="container" data-aos="fade-up">
+        <div class="section-header">
+            <h2>Event Speakers</h2>
+            <p>Here are some of our speakers</p>
+        </div>
+         
+        <h1 align="center">Keynote Speakers</h1>
+        <div class="row">
+            {% for speaker in page.keynote_speakers %}
+                {% set list_speaker = speaker.split('~') %}
+                <div class="col-lg-4 col-md-6">
+                    <div class="speaker" data-aos="fade-up" data-aos-delay="100">
+                        <img src="{{ SITEURL }}/theme/img/speakers/{{ list_speaker[2] }}" alt="{{ list_speaker[2] }}" class="img-fluid">
+                        <div class="details">
+                            <h3><a href="{{ SITEURL + '/speaker/' + list_speaker[6] }}">{{ list_speaker[1] }}</a></h3>
+                            <p>{{ list_speaker[0] }}</p>
+                            <div class="social">
+                                <a href="{{ list_speaker[5]}}"><i class="fa fa-twitter"></i></a>
+                                <a href="{{ list_speaker[4]}}"><i class="fa fa-facebook"></i></a>
+                                <a href="{{ list_speaker[3]}}"><i class="fa fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+        <br><br>
+        <h1 align="center">Other Speakers</h1>
+        <div class="row">
+            {% for speaker in page.speakers %}
+                {% set list_speaker = speaker.split('~') %}
+                <div class="col-lg-2 col-md-4">
+                    <div class="speaker" data-aos="fade-up" data-aos-delay="100">
+                        <img src="{{ SITEURL }}/theme/img/speakers/{{ list_speaker[2] }}" alt="{{ list_speaker[2] }}" class="img-fluid">
+                        <div class="details">
+                            <h5 style="font-size:10pt;margin-bottom:7px!important;"><b><a href="{{ SITEURL + '/speaker/' + list_speaker[3] }}">{{ list_speaker[1] }}</a></b></h5>
+                            <div class="social">
+                                <p style="font-size:8pt; ">{{ list_speaker[0] }}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+
+</section><!-- End Speakers Section -->
+
+{% include 'sponsors-list.html' %}
+{% endblock  %}

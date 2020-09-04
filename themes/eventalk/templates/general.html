@@ -1,9 +1,18 @@
-{%extends 'base.html'%}
+{% extends 'base.html' %}
 
-{%block title%}{{page.title}}{%endblock%}
-{%block content%}
+{% block title %}{{page.title}}{% endblock %}
 
+{% block content %}
+<section class="section-with-bg default-page">
+    <div class="container" data-aos="fade-up">
+        <div class="section-header">
+            <h2>{{ page.title }}</h2>
+        </div>
+        <div class=" p-5 border rounded text-justify">
+            {{ page.content }}
+        </div>
+    </div>
+</section>
 
-
-
-{%endblock%}
+{% include 'sponsors-list.html' %}
+{% endblock %}
