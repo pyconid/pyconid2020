@@ -1,9 +1,22 @@
 {%extends 'base.html'%}
 
-{%block title%}{{articles.title}}{%endblock%}
+{%block title%}Blog - {{article.title}}{%endblock%}
 {%block content%}
 
+<section id="blogs-details">
+    <div class="container" data-ao="fade-up">
+            <div class="details">
+                <h2>{{article.title}}</h2>
+                <img src="{{SITEURL}}/theme/img/blogs/{{article.image}}" class="img-fluid" width="800" />
+                <div class="info">
+                    <p>Date : {{article.date}}</p>
+                    <p>Author : {{article.author}}</p>
+                </div>
 
+        </div>
+            {{ article.content }}
+    </div>
+</section>
 
 
 
