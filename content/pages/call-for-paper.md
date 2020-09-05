@@ -34,7 +34,7 @@ It’s preferable if your associated organization’s name/branding is mentioned
 Feel free to submit multiple proposals. For any questions, please write to conf@python.or.id Last, but not the least, we accept talks in Bahasa Indonesia and English. After all, it’s PyCon Indonesia!
 
 
-#### Join Our Stage! **[Register Yourself](https://www.papercall.io/pyconid2019)**
+#### Join Our Stage! **[Register Yourself](https://www.papercall.io/pyconid2020)**
 
 <!-- Begin Mailchimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">

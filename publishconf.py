@@ -12,7 +12,7 @@ from pelicanconf import *
 
 # If your site is available via HTTPS, make sure SITEURL begins with https://
 # SITEURL = 'https://pycon.id'
-SITEURL = 'https://pyconid.github.io/pyconid2020/'
+SITEURL = 'https://pyconid.github.io/pyconid2020'
 
 RELATIVE_URLS = False
 
