@@ -10,19 +10,27 @@
             <p>Articles related with Python Conference Indonesia 2020</p>
         </div>
 
-        <div class="row">
-          {% for article in page.blog_list %}
+          <div class="blog-single shadow-lg">
+            <img src="{{SITEURL}}/theme/img/blogs/1.JPG" />
+            <div class="blog-description">
+              <div class="blog-wrapper">
+                <h4>Welcome to PyCon ID 2020</h4>
+                <p>Author: Adif Dwi Maulana</p>
+                <p>Date: 06-09-2020 02:46</p>
+                <a href="/blog/welcome-to-pycon-id-2020" class="btn-blog">Read More</a>
+              </div>
+            </div>
+          <!-- {% for blog in page.articles %} -->
           <!-- Title, Author, Category, url, Image -->
-            {% set list_article = article.split('~') %}
-              <!-- <img src="{{SITEURL}}/theme/img/blogs/{{list_article[4]}}" /> -->
-              <h4>{{list_article[0]}}</h2><br/>
-              <h1>{{list_article[1]}}</p><br/>
-              <p>{{list_article[2]}}</p><br/>
-              <!-- <a href="{{SITEURL}}/{{list_article[3]}}" >Read More</a> -->
-              {% endfor %}
+            <!-- {% set list_blog = blog.split('~') %}
+              <h4>{{list_blog[0]}}</h2><br/>
+              <h1>{{list_blog[1]}}</p><br/>
+              <p>{{list_blog[2]}}</p>
+            {% endfor %} -->
             
         </div>
       </div>
 </section>
 
+{% include 'sponsors-list.html' %}
 {%endblock%}

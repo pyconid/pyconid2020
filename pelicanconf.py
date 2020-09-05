@@ -52,7 +52,7 @@ ARTICEL_PATHS = ['articles']
 # ARTICLE_URL = '{category}/{slug}'
 # ARTICLE_SAVE_AS = '{category}/{slug}.html'
 ARTICLE_URL = 'blog/{slug}'
-ARTICLE_SAVE_AS = 'blogs/{slug}.html'
+ARTICLE_SAVE_AS = 'blog/{slug}.html'
 
 # Menu Item Config
 MENUITEMS = (
