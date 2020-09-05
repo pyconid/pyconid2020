@@ -18,8 +18,8 @@
 
     <!-- Stylesheets -->
     <!-- Favicons -->
-    <link href="https://pyconid.github.io/pyconid2020/theme/img/favicon.png" rel="icon">
-    <link href="https://pyconid.github.io/pyconid2020/theme/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <link href="/theme/img/favicon.png" rel="icon">
+    <link href="/theme/img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
     <link
@@ -27,14 +27,14 @@
         rel="stylesheet">
 
     <!-- Vendor CSS Files -->
-    <link href="https://pyconid.github.io/pyconid2020/theme/css/bootstrap/bootstrap.min.css" rel="stylesheet">
-    <link href="https://pyconid.github.io/pyconid2020/theme/css/venobox.css" rel="stylesheet">
-    <link href="https://pyconid.github.io/pyconid2020/theme/css/font-awesome.min.css" rel="stylesheet">
-    <link href="https://pyconid.github.io/pyconid2020/theme/css/owl.carousel.min.css" rel="stylesheet">
-    <link href="https://pyconid.github.io/pyconid2020/theme/css/aos.css" rel="stylesheet">
+    <link href="/theme/css/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link href="/theme/css/venobox.css" rel="stylesheet">
+    <link href="/theme/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/theme/css/owl.carousel.min.css" rel="stylesheet">
+    <link href="/theme/css/aos.css" rel="stylesheet">
 
     <!-- Template Main CSS File -->
-    <link href="https://pyconid.github.io/pyconid2020/theme/css/custom.css" rel="stylesheet">
+    <link href="/theme/css/custom.css" rel="stylesheet">
 </head>
 
 <body>
@@ -46,16 +46,17 @@
             <div id="logo" class="pull-left">
                 <!-- Uncomment below if you prefer to use a text logo -->
                 <!-- <h1><a href="#intro">The<span>Event</span></a></h1>-->
-                <a href="/" class="scrollto"><img src="https://pyconid.github.io/pyconid2020/images/pycon-logo-cropped.png" alt="" title=""></a>
+                <a href="/" class="scrollto"><img src="/images/pycon-logo-cropped.png" alt="" title=""></a>
             </div>
 
             <nav id="nav-menu-container">
                 <ul class="nav-menu">
-                    <li class=""><a href="https://pyconid.github.io/pyconid2020/speakers">Our Speakers</a></li>
-                    <li class=""><a href="https://pyconid.github.io/pyconid2020/sponsor">Sponsorship Opportunity</a></li>
-                    <li class=""><a href="https://pyconid.github.io/pyconid2020/code-of-conduct">Code of Conduct</a></li>
-                    <li class=""><a href="https://pyconid.github.io/pyconid2020/blog">Blog</a></li>
-                    <li class=""><a href="https://pyconid.github.io/pyconid2020/patron">Our Patrons</a></li>
+                    <li class=""><a href="/call-for-paper">Call for Paper</a></li>
+                    <li class=""><a href="/ticket">Buy Ticket</a></li>
+                    <li class=""><a href="/sponsor">Sponsorship Opportunity</a></li>
+                    <li class=""><a href="/code-of-conduct">Code of Conduct</a></li>
+                    <li class=""><a href="/blog">Blog</a></li>
+                    <li class=""><a href="/patron">Our Patrons</a></li>
                 </ul>
             </nav><!-- #nav-menu-container -->
         </div>
@@ -69,7 +70,12 @@
     <p class="mb-4 pb-0">14-15 November, Online</p>
     <!-- <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="venobox play-btn mb-4" data-vbtype="video"
       data-autoplay="true"></a> -->
-    <a href="#about" class="about-btn scrollto">About PyCon ID 2020</a>
+      <div class="btn-wrapper">
+        <div class="container">
+          <a href="#about" class="about-btn scrollto">About PyCon ID 2020</a>
+          <a href="/ticket" id="btn-ticket" class="about-btn scrollto">Buy Tickets</a>
+        </div>
+      </div>
   </div>
 </section>
 <!-- End Intro Section -->
@@ -84,7 +90,7 @@
           <h2>About PyCon ID 2020</h2>
           <p>PyCon Indonesia is a conference where Python users, or people interested in Python, 
             gather to learn from each other and meet other members of the community.  
-            This year, we chose "Connect - Collaborate - Contribute" as our theme. The Pycon ID staff is continuing to work hard on making a conference that 
+            This year, we chose <strong>"Connect - Collaborate - Contribute"</strong> as our theme. The Pycon ID staff is continuing to work hard on making a conference that 
             will allow everyone to have a great time and unlock new possibilities through Python. </p>
         </div>
         <div class="col-lg-3">
@@ -100,379 +106,46 @@
   </section><!-- End About Section -->
 
   <!-- ======= Speakers Section ======= -->
-  <section id="speakers">
+  <section id="call-for-paper">
     <div class="container" data-aos="fade-up">
       <div class="section-header">
-        <h2>Event Speakers</h2>
-        <p>Here are some of our speakers</p>
+        <h2>Call for Paper</h2>
+        <p>Speak at Python Conference Indonesia 2020</p>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-6">
+          <div class="details">
+            <p class="text-justify" style="margin-bottom: 16px;">
+              PyCon Indonesia is pleased to announce that the Call For Proposals is now open. 
+              We are calling out for speakers to share their Python knowledge (in the form of Talks, Workshop and Posters) 
+              which would intrigue the Python community at this event! We’re looking for proposals on every 
+              aspect of Python: from basic to advanced levels. We’re interested to see all content that’s interesting and engaging 
+              to the Python community, whether it be tutorials, case studies, interactive sessions, or even how you and 
+              your organization works with Python. So if you have something that the community might be interested in, let us know; 
+              and don’t worry if you’re a seasoned engineer or a novice with no experience of presenting at a conference before; 
+              what matters is the content that you’ll be sharing with the community.
+            </p>
+            <a href="/call-for-paper" class="btn-cfp">See Details</a>
+          </div>
+        </div>
+        <div class="col-lg-6 justify-content-center">
+          <img src="/theme/img/call-for-paper.JPG" alt="" class="img-fluid" height="200" />
+        </div>
+      </div>
       </div>
 
-      <div class="row">
-        <div class="col-lg-4 col-md-6">
-          <div class="speaker" data-aos="fade-up" data-aos-delay="100">
-            <img src="https://pyconid.github.io/pyconid2020/theme/img/speakers/1.jpg" alt="Speaker 1" class="img-fluid">
-            <div class="details">
-              <h3><a href="speaker-details.html">Brenden Legros</a></h3>
-              <p>Quas alias incidunt</p>
-              <div class="social">
-                <a href=""><i class="fa fa-twitter"></i></a>
-                <a href=""><i class="fa fa-facebook"></i></a>
-                <a href=""><i class="fa fa-google-plus"></i></a>
-                <a href=""><i class="fa fa-linkedin"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="speaker" data-aos="fade-up" data-aos-delay="200">
-            <img src="https://pyconid.github.io/pyconid2020/theme/img/speakers/2.jpg" alt="Speaker 2" class="img-fluid">
-            <div class="details">
-              <h3><a href="speaker-details.html">Hubert Hirthe</a></h3>
-              <p>Consequuntur odio aut</p>
-              <div class="social">
-                <a href=""><i class="fa fa-twitter"></i></a>
-                <a href=""><i class="fa fa-facebook"></i></a>
-                <a href=""><i class="fa fa-google-plus"></i></a>
-                <a href=""><i class="fa fa-linkedin"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="speaker" data-aos="fade-up" data-aos-delay="300">
-            <img src="https://pyconid.github.io/pyconid2020/theme/img/speakers/3.jpg" alt="Speaker 3" class="img-fluid">
-            <div class="details">
-              <h3><a href="speaker-details.html">Cole Emmerich</a></h3>
-              <p>Fugiat laborum et</p>
-              <div class="social">
-                <a href=""><i class="fa fa-twitter"></i></a>
-                <a href=""><i class="fa fa-facebook"></i></a>
-                <a href=""><i class="fa fa-google-plus"></i></a>
-                <a href=""><i class="fa fa-linkedin"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="speaker" data-aos="fade-up" data-aos-delay="100">
-            <img src="https://pyconid.github.io/pyconid2020/theme/img/speakers/4.jpg" alt="Speaker 4" class="img-fluid">
-            <div class="details">
-              <h3><a href="speaker-details.html">Jack Christiansen</a></h3>
-              <p>Debitis iure vero</p>
-              <div class="social">
-                <a href=""><i class="fa fa-twitter"></i></a>
-                <a href=""><i class="fa fa-facebook"></i></a>
-                <a href=""><i class="fa fa-google-plus"></i></a>
-                <a href=""><i class="fa fa-linkedin"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="speaker" data-aos="fade-up" data-aos-delay="200">
-            <img src="https://pyconid.github.io/pyconid2020/theme/img/speakers/5.jpg" alt="Speaker 5" class="img-fluid">
-            <div class="details">
-              <h3><a href="speaker-details.html">Alejandrin Littel</a></h3>
-              <p>Qui molestiae natus</p>
-              <div class="social">
-                <a href=""><i class="fa fa-twitter"></i></a>
-                <a href=""><i class="fa fa-facebook"></i></a>
-                <a href=""><i class="fa fa-google-plus"></i></a>
-                <a href=""><i class="fa fa-linkedin"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="speaker" data-aos="fade-up" data-aos-delay="300">
-            <img src="https://pyconid.github.io/pyconid2020/theme/img/speakers/6.jpg" alt="Speaker 6" class="img-fluid">
-            <div class="details">
-              <h3><a href="speaker-details.html">Willow Trantow</a></h3>
-              <p>Non autem dicta</p>
-              <div class="social">
-                <a href=""><i class="fa fa-twitter"></i></a>
-                <a href=""><i class="fa fa-facebook"></i></a>
-                <a href=""><i class="fa fa-google-plus"></i></a>
-                <a href=""><i class="fa fa-linkedin"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div style="display: flex; flex-direction: row; justify-content: center;">
-      <a href="https://pyconid.github.io/pyconid2020/speakers" class="speaker-btn" style='font-family: "Raleway", sans-serif !important;
-      margin-left: auto;
-      margin-right: auto;
-      justify-content: center;
-      font-weight: 600;
-      font-size: 14px;
-      letter-spacing: 1px;
-      display: inline-block;
-      padding: 12px 36px;
-      border-radius: 50px;
-      transition: 0.5s;
-      line-height: 1;
-      margin: 10px;
-      color: #fff;
-      background-color: #f82249;
-      -webkit-animation-delay: 0.8s;
-      animation-delay: 0.8s;
-      border: 2px solid #f82249;' onmouseover="this.style.backgroundColor = '#0e1b4d'; this.style.border = '2px solid #0e1b4d'" onmouseout="this.style.backgroundColor = '#f82249'; this.style.border = '2px solid #f82249'">See all speakers</a>
-      </div>
-    </div>
-  </section><!-- End Speakers Section -->
+  </section>
 
   <!-- ======= Schedule Section ======= -->
   <section id="schedule" class="section-with-bg">
     <div class="container" data-aos="fade-up">
       <div class="section-header">
-        <h2>Event Schedule</h2>
-        <p>Here is our event schedule</p>
+        <h2>Event Schedule & Speakers</h2>
+        <p>Will be announced soon...</p>
       </div>
-
-      <ul class="nav nav-tabs" role="tablist" data-aos="fade-up" data-aos-delay="100">
-        <li class="nav-item">
-          <a class="nav-link active" href="#day-1" role="tab" data-toggle="tab">Day 1</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#day-2" role="tab" data-toggle="tab">Day 2</a>
-        </li>
-      </ul>
-
-      <h3 class="sub-heading">Voluptatem nulla veniam soluta et corrupti consequatur neque eveniet officia. Eius
-        necessitatibus voluptatem quis labore perspiciatis quia.</h3>
-
-      <div class="tab-content row justify-content-center" data-aos="fade-up" data-aos-delay="200">
-
-        <!-- Schdule Day 1 -->
-        <div role="tabpanel" class="col-lg-9 tab-pane fade show active" id="day-1">
-
-          <div class="row schedule-item">
-            <div class="col-md-2"><time>09:30 AM</time></div>
-            <div class="col-md-10">
-              <h4>Registration</h4>
-              <p>Fugit voluptas iusto maiores temporibus autem numquam magnam.</p>
-            </div>
-          </div>
-
-          <div class="row schedule-item">
-            <div class="col-md-2"><time>10:00 AM</time></div>
-            <div class="col-md-10">
-              <div class="speaker">
-                <img src="https://pyconid.github.io/pyconid2020/theme/img/speakers/1.jpg" alt="Brenden Legros">
-              </div>
-              <h4>Keynote <span>Brenden Legros</span></h4>
-              <p>Facere provident incidunt quos voluptas.</p>
-            </div>
-          </div>
-
-          <div class="row schedule-item">
-            <div class="col-md-2"><time>11:00 AM</time></div>
-            <div class="col-md-10">
-              <div class="speaker">
-                <img src="https://pyconid.github.io/pyconid2020/theme/img/speakers/2.jpg" alt="Hubert Hirthe">
-              </div>
-              <h4>Et voluptatem iusto dicta nobis. <span>Hubert Hirthe</span></h4>
-              <p>Maiores dignissimos neque qui cum accusantium ut sit sint inventore.</p>
-            </div>
-          </div>
-
-          <div class="row schedule-item">
-            <div class="col-md-2"><time>12:00 AM</time></div>
-            <div class="col-md-10">
-              <div class="speaker">
-                <img src="https://pyconid.github.io/pyconid2020/theme/img/speakers/3.jpg" alt="Cole Emmerich">
-              </div>
-              <h4>Explicabo et rerum quis et ut ea. <span>Cole Emmerich</span></h4>
-              <p>Veniam accusantium laborum nihil eos eaque accusantium aspernatur.</p>
-            </div>
-          </div>
-
-          <div class="row schedule-item">
-            <div class="col-md-2"><time>02:00 PM</time></div>
-            <div class="col-md-10">
-              <div class="speaker">
-                <img src="https://pyconid.github.io/pyconid2020/theme/img/speakers/4.jpg" alt="Jack Christiansen">
-              </div>
-              <h4>Qui non qui vel amet culpa sequi. <span>Jack Christiansen</span></h4>
-              <p>Nam ex distinctio voluptatem doloremque suscipit iusto.</p>
-            </div>
-          </div>
-
-          <div class="row schedule-item">
-            <div class="col-md-2"><time>03:00 PM</time></div>
-            <div class="col-md-10">
-              <div class="speaker">
-                <img src="https://pyconid.github.io/pyconid2020/theme/img/speakers/5.jpg" alt="Alejandrin Littel">
-              </div>
-              <h4>Quos ratione neque expedita asperiores. <span>Alejandrin Littel</span></h4>
-              <p>Eligendi quo eveniet est nobis et ad temporibus odio quo.</p>
-            </div>
-          </div>
-
-          <div class="row schedule-item">
-            <div class="col-md-2"><time>04:00 PM</time></div>
-            <div class="col-md-10">
-              <div class="speaker">
-                <img src="https://pyconid.github.io/pyconid2020/theme/img/speakers/6.jpg" alt="Willow Trantow">
-              </div>
-              <h4>Quo qui praesentium nesciunt <span>Willow Trantow</span></h4>
-              <p>Voluptatem et alias dolorum est aut sit enim neque veritatis.</p>
-            </div>
-          </div>
-
-        </div>
-        <!-- End Schdule Day 1 -->
-
-        <!-- Schdule Day 2 -->
-        <div role="tabpanel" class="col-lg-9  tab-pane fade" id="day-2">
-
-          <div class="row schedule-item">
-            <div class="col-md-2"><time>10:00 AM</time></div>
-            <div class="col-md-10">
-              <div class="speaker">
-                <img src="https://pyconid.github.io/pyconid2020/theme/img/speakers/1.jpg" alt="Brenden Legros">
-              </div>
-              <h4>Libero corrupti explicabo itaque. <span>Brenden Legros</span></h4>
-              <p>Facere provident incidunt quos voluptas.</p>
-            </div>
-          </div>
-
-          <div class="row schedule-item">
-            <div class="col-md-2"><time>11:00 AM</time></div>
-            <div class="col-md-10">
-              <div class="speaker">
-                <img src="https://pyconid.github.io/pyconid2020/theme/img/speakers/2.jpg" alt="Hubert Hirthe">
-              </div>
-              <h4>Et voluptatem iusto dicta nobis. <span>Hubert Hirthe</span></h4>
-              <p>Maiores dignissimos neque qui cum accusantium ut sit sint inventore.</p>
-            </div>
-          </div>
-
-          <div class="row schedule-item">
-            <div class="col-md-2"><time>12:00 AM</time></div>
-            <div class="col-md-10">
-              <div class="speaker">
-                <img src="https://pyconid.github.io/pyconid2020/theme/img/speakers/3.jpg" alt="Cole Emmerich">
-              </div>
-              <h4>Explicabo et rerum quis et ut ea. <span>Cole Emmerich</span></h4>
-              <p>Veniam accusantium laborum nihil eos eaque accusantium aspernatur.</p>
-            </div>
-          </div>
-
-          <div class="row schedule-item">
-            <div class="col-md-2"><time>02:00 PM</time></div>
-            <div class="col-md-10">
-              <div class="speaker">
-                <img src="https://pyconid.github.io/pyconid2020/theme/img/speakers/4.jpg" alt="Jack Christiansen">
-              </div>
-              <h4>Qui non qui vel amet culpa sequi. <span>Jack Christiansen</span></h4>
-              <p>Nam ex distinctio voluptatem doloremque suscipit iusto.</p>
-            </div>
-          </div>
-
-          <div class="row schedule-item">
-            <div class="col-md-2"><time>03:00 PM</time></div>
-            <div class="col-md-10">
-              <div class="speaker">
-                <img src="https://pyconid.github.io/pyconid2020/theme/img/speakers/5.jpg" alt="Alejandrin Littel">
-              </div>
-              <h4>Quos ratione neque expedita asperiores. <span>Alejandrin Littel</span></h4>
-              <p>Eligendi quo eveniet est nobis et ad temporibus odio quo.</p>
-            </div>
-          </div>
-
-          <div class="row schedule-item">
-            <div class="col-md-2"><time>04:00 PM</time></div>
-            <div class="col-md-10">
-              <div class="speaker">
-                <img src="https://pyconid.github.io/pyconid2020/theme/img/speakers/6.jpg" alt="Willow Trantow">
-              </div>
-              <h4>Quo qui praesentium nesciunt <span>Willow Trantow</span></h4>
-              <p>Voluptatem et alias dolorum est aut sit enim neque veritatis.</p>
-            </div>
-          </div>
-
-        </div>
-        <!-- End Schdule Day 2 -->
-
-        <!-- Schdule Day 3 -->
-        <div role="tabpanel" class="col-lg-9  tab-pane fade" id="day-3">
-
-          <div class="row schedule-item">
-            <div class="col-md-2"><time>10:00 AM</time></div>
-            <div class="col-md-10">
-              <div class="speaker">
-                <img src="https://pyconid.github.io/pyconid2020/theme/img/speakers/2.jpg" alt="Hubert Hirthe">
-              </div>
-              <h4>Et voluptatem iusto dicta nobis. <span>Hubert Hirthe</span></h4>
-              <p>Maiores dignissimos neque qui cum accusantium ut sit sint inventore.</p>
-            </div>
-          </div>
-
-          <div class="row schedule-item">
-            <div class="col-md-2"><time>11:00 AM</time></div>
-            <div class="col-md-10">
-              <div class="speaker">
-                <img src="https://pyconid.github.io/pyconid2020/theme/img/speakers/3.jpg" alt="Cole Emmerich">
-              </div>
-              <h4>Explicabo et rerum quis et ut ea. <span>Cole Emmerich</span></h4>
-              <p>Veniam accusantium laborum nihil eos eaque accusantium aspernatur.</p>
-            </div>
-          </div>
-
-          <div class="row schedule-item">
-            <div class="col-md-2"><time>12:00 AM</time></div>
-            <div class="col-md-10">
-              <div class="speaker">
-                <img src="https://pyconid.github.io/pyconid2020/theme/img/speakers/1.jpg" alt="Brenden Legros">
-              </div>
-              <h4>Libero corrupti explicabo itaque. <span>Brenden Legros</span></h4>
-              <p>Facere provident incidunt quos voluptas.</p>
-            </div>
-          </div>
-
-          <div class="row schedule-item">
-            <div class="col-md-2"><time>02:00 PM</time></div>
-            <div class="col-md-10">
-              <div class="speaker">
-                <img src="https://pyconid.github.io/pyconid2020/theme/img/speakers/4.jpg" alt="Jack Christiansen">
-              </div>
-              <h4>Qui non qui vel amet culpa sequi. <span>Jack Christiansen</span></h4>
-              <p>Nam ex distinctio voluptatem doloremque suscipit iusto.</p>
-            </div>
-          </div>
-
-          <div class="row schedule-item">
-            <div class="col-md-2"><time>03:00 PM</time></div>
-            <div class="col-md-10">
-              <div class="speaker">
-                <img src="https://pyconid.github.io/pyconid2020/theme/img/speakers/5.jpg" alt="Alejandrin Littel">
-              </div>
-              <h4>Quos ratione neque expedita asperiores. <span>Alejandrin Littel</span></h4>
-              <p>Eligendi quo eveniet est nobis et ad temporibus odio quo.</p>
-            </div>
-          </div>
-
-          <div class="row schedule-item">
-            <div class="col-md-2"><time>04:00 PM</time></div>
-            <div class="col-md-10">
-              <div class="speaker">
-                <img src="https://pyconid.github.io/pyconid2020/theme/img/speakers/6.jpg" alt="Willow Trantow">
-              </div>
-              <h4>Quo qui praesentium nesciunt <span>Willow Trantow</span></h4>
-              <p>Voluptatem et alias dolorum est aut sit enim neque veritatis.</p>
-            </div>
-          </div>
-
-        </div>
-        <!-- End Schdule Day 2 -->
-
-      </div>
-
     </div>
-
-  </section><!-- End Schedule Section -->
+  </section>
+  <!-- End Schedule Section -->
 
   <!-- ======= Gallery Section ======= -->
   <section id="gallery">
@@ -480,27 +153,27 @@
     <div class="container" data-aos="fade-up">
       <div class="section-header">
         <h2>Gallery</h2>
-        <p>Check our gallery from the recent events</p>
+        <p>Check our gallery from the previous events</p>
       </div>
     </div>
 
     <div class="owl-carousel gallery-carousel" data-aos="fade-up" data-aos-delay="100">
-      <a href="https://pyconid.github.io/pyconid2020/theme/img/gallery/1.jpg" class="venobox" data-gall="gallery-carousel"><img
-          src="https://pyconid.github.io/pyconid2020/theme/img/gallery/1.jpg" alt=""></a>
-      <a href="https://pyconid.github.io/pyconid2020/theme/img/gallery/2.jpg" class="venobox" data-gall="gallery-carousel"><img
-          src="https://pyconid.github.io/pyconid2020/theme/img/gallery/2.jpg" alt=""></a>
-      <a href="https://pyconid.github.io/pyconid2020/theme/img/gallery/3.jpg" class="venobox" data-gall="gallery-carousel"><img
-          src="https://pyconid.github.io/pyconid2020/theme/img/gallery/3.jpg" alt=""></a>
-      <a href="https://pyconid.github.io/pyconid2020/theme/img/gallery/4.jpg" class="venobox" data-gall="gallery-carousel"><img
-          src="https://pyconid.github.io/pyconid2020/theme/img/gallery/4.jpg" alt=""></a>
-      <a href="https://pyconid.github.io/pyconid2020/theme/img/gallery/5.jpg" class="venobox" data-gall="gallery-carousel"><img
-          src="https://pyconid.github.io/pyconid2020/theme/img/gallery/5.jpg" alt=""></a>
-      <a href="https://pyconid.github.io/pyconid2020/theme/img/gallery/6.jpg" class="venobox" data-gall="gallery-carousel"><img
-          src="https://pyconid.github.io/pyconid2020/theme/img/gallery/6.jpg" alt=""></a>
-      <a href="https://pyconid.github.io/pyconid2020/theme/img/gallery/7.jpg" class="venobox" data-gall="gallery-carousel"><img
-          src="https://pyconid.github.io/pyconid2020/theme/img/gallery/7.jpg" alt=""></a>
-      <a href="https://pyconid.github.io/pyconid2020/theme/img/gallery/8.jpg" class="venobox" data-gall="gallery-carousel"><img
-          src="https://pyconid.github.io/pyconid2020/theme/img/gallery/8.jpg" alt=""></a>
+      <a href="/theme/img/gallery/gallery-1.jpg" class="venobox" data-gall="gallery-carousel" ><img
+          src="/theme/img/gallery/gallery-1.jpg" alt=""></a>
+      <a href="/theme/img/gallery/gallery-2.jpg" class="venobox" data-gall="gallery-carousel"><img
+          src="/theme/img/gallery/gallery-2.jpg" alt=""></a>
+      <a href="/theme/img/gallery/gallery-3.jpg" class="venobox" data-gall="gallery-carousel"><img
+          src="/theme/img/gallery/gallery-3.jpg" alt=""></a>
+      <a href="/theme/img/gallery/gallery-4.jpg" class="venobox" data-gall="gallery-carousel"><img
+          src="/theme/img/gallery/gallery-4.jpg" alt=""></a>
+      <a href="/theme/img/gallery/gallery-1.jpg" class="venobox" data-gall="gallery-carousel"><img
+          src="/theme/img/gallery/gallery-1.jpg" alt=""></a>
+      <a href="/theme/img/gallery/gallery-2.jpg" class="venobox" data-gall="gallery-carousel"><img
+          src="/theme/img/gallery/gallery-2.jpg" alt=""></a>
+      <a href="/theme/img/gallery/gallery-3.jpg" class="venobox" data-gall="gallery-carousel"><img
+          src="/theme/img/gallery/gallery-3.jpg" alt=""></a>
+      <a href="/theme/img/gallery/gallery-4.jpg" class="venobox" data-gall="gallery-carousel"><img
+          src="/theme/img/gallery/gallery-4.jpg" alt=""></a>
     </div>
 
   </section>
@@ -611,7 +284,7 @@
                 <div class="row">
 
                     <div class="col-lg-4 col-md footer-info">
-                        <img src="https://pyconid.github.io/pyconid2020/images/pycon-logo-cropped.png" alt="PyCon ID 2020">
+                        <img src="/images/pycon-logo-cropped.png" alt="PyCon ID 2020">
                         <p> A conference where Python users or people interested in Python gather to learn from each other and meet other members of the community from all around the world.</p>
                         <div class="social-links">
                             <a href="https://twitter.com/id_python" class="twitter"><i class="fa fa-twitter"></i></a>
@@ -646,17 +319,17 @@
     <a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>
 
     <!-- Vendor JS Files -->
-    <script src="https://pyconid.github.io/pyconid2020/theme/js/jquery.min.js"></script>
-    <script src="https://pyconid.github.io/pyconid2020/theme/js/bootstrap/bootstrap.bundle.min.js"></script>
-    <script src="https://pyconid.github.io/pyconid2020/theme/js/jquery.easing.min.js"></script>
-    <script src="https://pyconid.github.io/pyconid2020/theme/js/venobox.min.js"></script>
-    <script src="https://pyconid.github.io/pyconid2020/theme/js/owl.carousel.min.js"></script>
-    <script src="https://pyconid.github.io/pyconid2020/theme/js/superfish.min.js"></script>
-    <script src="https://pyconid.github.io/pyconid2020/theme/js/hoverIntent.js"></script>
-    <script src="https://pyconid.github.io/pyconid2020/theme/js/aos.js"></script>
+    <script src="/theme/js/jquery.min.js"></script>
+    <script src="/theme/js/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="/theme/js/jquery.easing.min.js"></script>
+    <script src="/theme/js/venobox.min.js"></script>
+    <script src="/theme/js/owl.carousel.min.js"></script>
+    <script src="/theme/js/superfish.min.js"></script>
+    <script src="/theme/js/hoverIntent.js"></script>
+    <script src="/theme/js/aos.js"></script>
 
     <!-- Template Main JS File -->
-    <script src="https://pyconid.github.io/pyconid2020/theme/js/script.js"></script>
+    <script src="/theme/js/script.js"></script>
 
     <script>
         $(document).ready(function () {

@@ -14,6 +14,33 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+*:focus {
+  outline: 0;
+  /* border: none; */
+}
+
+button:focus {
+  outline: none;
+  /* border: none; */
+}
+
+a:focus {
+  outline: none;
+}
+
+.btn-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .about-btn {
+    margin: 5px !important;
+  }
+}
+
 a {
   color: #f82249;
   transition: 0.5s;
@@ -485,7 +512,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #intro {
   width: 100%;
   height: 100vh;
-  background: url("{{SITEURL}}/images/intro-bg.jpg") top center;
+  background: url("/images/intro-bg.jpg") top center;
   background-size: cover;
   overflow: hidden;
   position: relative;
@@ -634,19 +661,29 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 14px;
   letter-spacing: 1px;
   display: inline-block;
-  padding: 12px 32px;
+  padding: 12px 0px;
   border-radius: 50px;
   transition: 0.5s;
   line-height: 1;
   margin: 10px;
+  width: 200px;
   color: #fff;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
   border: 2px solid #f82249;
 }
 
+#btn-ticket {
+  background: #f82249;
+}
+
 #intro .about-btn:hover {
   background: #f82249;
+  color: #fff;
+}
+
+#btn-ticket:hover {
+  background: none !important;
   color: #fff;
 }
 
@@ -676,7 +713,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 # About Section
 --------------------------------------------------------------*/
 #about {
-  background: url("{{SITEURL}}/images/about-bg.jpg");
+  background: url("/images/about-bg.jpg");
   background-size: cover;
   overflow: hidden;
   position: relative;
@@ -828,6 +865,53 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 /*--------------------------------------------------------------
+# Call For Paper Section
+--------------------------------------------------------------*/
+#call-for-paper {
+  padding: 60px 0 80px 0;
+}
+
+@media (max-width: 768px) {
+  #call-for-paper {
+    padding: 60px 0;
+  }
+}
+
+#call-for-paper .details {
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  color: #9195a2;
+  letter-spacing: 0.8px;
+  font-weight: 500;
+}
+
+#call-for-paper .details .btn-cfp {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  text-align: center;
+  padding: 12px 0px;
+  border-radius: 50px;
+  transition: 0.5s;
+  line-height: 1;
+  width: 200px;
+  margin: 0 0 20px 0;
+  color: #fff;
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+  background: #f82249;
+  border: 2px solid #f82249;
+}
+
+#call-for-paper .details .btn-cfp:hover {
+  border: 2px solid #0e1b4d;
+  background: #0e1b4d;
+}
+
+
+/*--------------------------------------------------------------
 # Schedule Section
 --------------------------------------------------------------*/
 #schedule {
@@ -965,7 +1049,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #venue .venue-info {
-  background: url("{{SITEURL}}/images/venue-info-bg.jpg") top center no-repeat;
+  background: url("/images/venue-info-bg.jpg") top center no-repeat;
   background-size: cover;
   position: relative;
   padding-top: 60px;
@@ -1216,7 +1300,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------------------------------------*/
 #subscribe {
   padding: 60px;
-  background: url("{{SITEURL}}/images/subscribe-bg.jpg") center center no-repeat;
+  background: url("/images/subscribe-bg.jpg") center center no-repeat;
   background-size: cover;
   overflow: hidden;
   position: relative;
