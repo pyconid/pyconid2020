@@ -16,6 +16,20 @@ body {
 
 *:focus {
   outline: none;
+  border: none;
+}
+
+.btn-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .about-btn {
+    margin: 5px !important;
+  }
 }
 
 a {
@@ -638,19 +652,29 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 14px;
   letter-spacing: 1px;
   display: inline-block;
-  padding: 12px 32px;
+  padding: 12px 0px;
   border-radius: 50px;
   transition: 0.5s;
   line-height: 1;
   margin: 10px;
+  width: 200px;
   color: #fff;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
   border: 2px solid #f82249;
 }
 
+#btn-ticket {
+  background: #f82249;
+}
+
 #intro .about-btn:hover {
   background: #f82249;
+  color: #fff;
+}
+
+#btn-ticket:hover {
+  background: none !important;
   color: #fff;
 }
 

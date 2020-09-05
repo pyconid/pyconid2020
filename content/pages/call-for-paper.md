@@ -51,22 +51,22 @@ Feel free to submit multiple proposals. For any questions, please write to conf@
 <div class="mc-field-group">
 	<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
 </label>
-	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" style="outline: none">
 </div>
 <div class="mc-field-group">
 	<label for="mce-FNAME">First Name  <span class="asterisk">*</span>
 </label>
-	<input type="text" value="" name="FNAME" class="required" id="mce-FNAME">
+	<input type="text" value="" name="FNAME" class="required" id="mce-FNAME" style="outline: none">
 </div>
 <div class="mc-field-group">
 	<label for="mce-LNAME">Last Name  <span class="asterisk">*</span>
 </label>
-	<input type="text" value="" name="LNAME" class="required" id="mce-LNAME">
+	<input type="text" value="" name="LNAME" class="required" id="mce-LNAME" style="outline: none">
 </div>
 <div class="mc-field-group">
 	<label for="mce-MMERGE5">I want to register as  <span class="asterisk">*</span>
 </label>
-	<select name="MMERGE5" class="required" id="mce-MMERGE5" style="height:40px">
+	<select name="MMERGE5" class="required" id="mce-MMERGE5" style="height:40px; outline: none">
 	<option value="Speaker">Speaker</option>
     <option value="Participant">Participant</option>
     <option value="Sponsor">Sponsor</option>

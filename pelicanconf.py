@@ -14,6 +14,8 @@ DEFAULT_LANG = 'en'
 
 THEME = 'themes/eventalk'
 
+TICKETING_SITE_URL = 'https://ticket.pycon.id'
+
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
