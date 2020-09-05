@@ -14,6 +14,10 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+*:focus {
+  outline: none;
+}
+
 a {
   color: #f82249;
   transition: 0.5s;

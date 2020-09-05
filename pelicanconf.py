@@ -52,7 +52,9 @@ ARTICLE_SAVE_AS = '{category}/{slug}.html'
 
 # Menu Item Config
 MENUITEMS = (
-    ('Our Speakers', 'speakers'),
+    # ('Our Speakers', 'speakers'),
+    ('Call for Paper', 'call-for-paper'),
+    ('Buy Ticket', 'ticket'),
     # ('Schedule', 'schedule'),
     # ('Speakers', 'speakers'),
     ('Sponsorship Opportunity', 'sponsor'),
