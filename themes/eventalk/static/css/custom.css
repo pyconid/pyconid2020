@@ -15,8 +15,17 @@ body {
 }
 
 *:focus {
+  outline: 0;
+  /* border: none; */
+}
+
+button:focus {
   outline: none;
-  border: none;
+  /* border: none; */
+}
+
+a:focus {
+  outline: none;
 }
 
 .btn-wrapper {
@@ -854,6 +863,53 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 15px;
   margin-bottom: 10px;
 }
+
+/*--------------------------------------------------------------
+# Call For Paper Section
+--------------------------------------------------------------*/
+#call-for-paper {
+  padding: 60px 0 80px 0;
+}
+
+@media (max-width: 768px) {
+  #call-for-paper {
+    padding: 60px 0;
+  }
+}
+
+#call-for-paper .details {
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  color: #9195a2;
+  letter-spacing: 0.8px;
+  font-weight: 500;
+}
+
+#call-for-paper .details .btn-cfp {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  text-align: center;
+  padding: 12px 0px;
+  border-radius: 50px;
+  transition: 0.5s;
+  line-height: 1;
+  width: 200px;
+  margin: 0 0 20px 0;
+  color: #fff;
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+  background: #f82249;
+  border: 2px solid #f82249;
+}
+
+#call-for-paper .details .btn-cfp:hover {
+  border: 2px solid #0e1b4d;
+  background: #0e1b4d;
+}
+
 
 /*--------------------------------------------------------------
 # Schedule Section
