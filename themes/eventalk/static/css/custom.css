@@ -1792,12 +1792,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 150px 0px 30px 0px !important;
 }
 
-<<<<<<< HEAD
-.coming-soon-page{
-  padding: 150px 0px 30px 0px !important;
-  min-height: 100%;
-  height: 700px;
-=======
 
 /*--------------------------------------------------------------
 # Blog Section
@@ -2137,5 +2131,4 @@ body.mobile-nav-active #mobile-nav-toggle {
     position: absolute;
     left: 2em;
     bottom: -2em;
->>>>>>> 28b59a5015beb1eebfe8ae73225ffc98a62c38d3
 }

@@ -4,32 +4,30 @@
 {%block content%}
 
 <section id="blogs" class="section-with-bg default-page">
-    <div class="container" data-aos="fade-up">
-        <div class="section-header">
-            <h2>Blog</h2>
-            <p>Articles related with Python Conference Indonesia 2020</p>
-        </div>
+  <div class="container" data-aos="fade-up">
+    <div class="section-header">
+      <h2>Blog</h2>
+      <p>Articles related with Python Conference Indonesia 2020</p>
+    </div>
 
-          <div class="blog-single shadow-lg">
-            <img src="{{SITEURL}}/theme/img/blogs/1.JPG" />
-            <div class="blog-description">
-              <div class="blog-wrapper">
-                <h4>Welcome to PyCon ID 2020</h4>
-                <p>Author: Adif Dwi Maulana</p>
-                <p>Date: 06-09-2020 02:46</p>
-                <a href="/blog/welcome-to-pycon-id-2020" class="btn-blog">Read More</a>
-              </div>
-            </div>
-          <!-- {% for blog in page.articles %} -->
-          <!-- Title, Author, Category, url, Image -->
-            <!-- {% set list_blog = blog.split('~') %}
-              <h4>{{list_blog[0]}}</h2><br/>
-              <h1>{{list_blog[1]}}</p><br/>
-              <p>{{list_blog[2]}}</p>
-            {% endfor %} -->
-            
+    <div class="row">
+    {% for list_data in page.articles %}
+      {% set data = list_data.split('~') %}
+      <div class="blog-single shadow-lg">
+        <img class="img img-thumbnail" src="{{SITEURL}}/theme/img/blogs/{{ data[4] }}" />
+        <div class="blog-description">
+          <div class="blog-wrapper">
+            <h4>{{ data[0] }}</h4>
+            <p>Author: {{ data[1] }}</p>
+            <p>Date: {{ data[2] }}</p>
+            <a href="{{ SITEURL }}blog/{{data[3] }}" class="btn-blog">Read More</a>
+          </div>
         </div>
       </div>
+      {% endfor %}
+    </div>
+    
+  </div>
 </section>
 
 {% include 'sponsors-list.html' %}
