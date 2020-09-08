@@ -14,6 +14,8 @@ DEFAULT_LANG = 'en'
 
 THEME = 'themes/eventalk'
 
+TICKETING_SITE_URL = 'https://ticket.pycon.id'
+
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
@@ -47,12 +49,16 @@ SCHEDULE_URL = '/schedule'
 
 # Articel Config
 ARTICEL_PATHS = ['articles']
-ARTICLE_URL = '{category}/{slug}'
-ARTICLE_SAVE_AS = '{category}/{slug}.html'
+# ARTICLE_URL = '{category}/{slug}'
+# ARTICLE_SAVE_AS = '{category}/{slug}.html'
+ARTICLE_URL = 'blog/{slug}'
+ARTICLE_SAVE_AS = 'blog/{slug}.html'
 
 # Menu Item Config
 MENUITEMS = (
-    ('Our Speakers', 'speakers'),
+    # ('Our Speakers', 'speakers'),
+    ('Call for Paper', 'call-for-paper'),
+    ('Buy Ticket', 'ticket'),
     # ('Schedule', 'schedule'),
     # ('Speakers', 'speakers'),
     ('Sponsorship Opportunity', 'sponsor'),
