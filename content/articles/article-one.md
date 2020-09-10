@@ -4,7 +4,7 @@ author: Adif Dwi Maulana
 date: 06-09-2020 02:46
 category: Python
 slug: welcome-to-pycon-id-2020
-image: 1.JPG
+image: image-1.JPG
 
 #### **Welcome to Python Conference Indonesia 2020**
 
