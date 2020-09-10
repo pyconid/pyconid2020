@@ -51,14 +51,14 @@ SCHEDULE_URL = '/schedule'
 ARTICEL_PATHS = ['articles']
 # ARTICLE_URL = '{category}/{slug}'
 # ARTICLE_SAVE_AS = '{category}/{slug}.html'
-ARTICLE_URL = 'blog/{slug}'
+ARTICLE_URL = 'blog/'
 ARTICLE_SAVE_AS = 'blog/{slug}.html'
 
 # Menu Item Config
 MENUITEMS = (
     # ('Our Speakers', 'speakers'),
     ('Call for Paper', 'call-for-paper'),
-    ('Buy Ticket', 'ticket'),
+    #('Buy Ticket', 'ticket'),
     # ('Schedule', 'schedule'),
     # ('Speakers', 'speakers'),
     ('Sponsorship Opportunity', 'sponsor'),
