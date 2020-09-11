@@ -47,12 +47,15 @@ SCHEDULE_URL = '/schedule'
 # BLOG_URL = '/blog'
 
 
-# Articel Config
+# Article Config
 ARTICEL_PATHS = ['articles']
-# ARTICLE_URL = '{category}/{slug}'
-# ARTICLE_SAVE_AS = '{category}/{slug}.html'
 ARTICLE_URL = 'blog/'
 ARTICLE_SAVE_AS = 'blog/{slug}.html'
+
+# Speaker Config
+SPEAKER_PATHS = ['speakers']
+SPEAKER_URL = 'speakers/'
+SPEAKER_SAVE_AS = 'speaker/{slug}.html'
 
 # Menu Item Config
 MENUITEMS = (
