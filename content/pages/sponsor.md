@@ -19,7 +19,7 @@ sponsorship_options: Free Tickets, 10, 5, 3
     Dedicated Website Page, Yes, No, No
     Logo on Publication Media, Large, Medium, Small
     Logo on T-Shirt, Yes, No, No
-    Logo on Package Box, Yes, Yes, No,
+    Logo on Package Box, Yes, Yes, Yes,
     Logo on Stickers, Large, Medium, Small
-    Logo on Message Letter, Yes, Yes, No
+    Logo on Message Letter, Yes, Yes, Yes
     Price, <b>IDR<br><span style="font-size: 17px;">35.000.000</span></b>, <b>IDR<br><span style="font-size: 17px;">25.000.000</span></b>, <b>IDR<br><span style="font-size: 17px;">10.000.000</span></b>,
