@@ -60,17 +60,44 @@ PyconID 2020
         
 ```
 
-### Change / Update Website Content
-wait wait wait wait wait wait wait wait wait.
+### Add / Update Website Content/Page
+You can create a new content/page for this website by following the steps below.
+
+1.  Create new markdown file in ```content/pages```.
+2.  Don't forget to declare ```title```, ```template```, and ```slug``` first in the markdown file before you write your content.
+3. You can use ```general.html``` template or create your own template in ```themes/eventalk/templates```, but if you create a new template, don't forget to update the documentation.
+4. Done.
+5. See [Call for Paper](https://raw.githubusercontent.com/pyconid/pyconid2020/develop/content/pages/call-for-paper.md)
 
 ### Create / Update Article
-soon soon soon soon soon soon soon soon.
+Creating new article, follow the steps below.
+1. Create new markdown file in ```contents/articles```.
+2. make sure you are already declaring these variable before create article content:
 
-### Add / Update Speaker
-maybe tonight ill update this md.
+    + ```title```, Page/Article title, eg: Pycon Indonesia 2020 has begun.
 
-### Create / Update Blog
-hmm......
+    + ```Template```, use ```blog-single``` template to create an article.
+
+    + ```author```, Author of this article, eg: Chitoge Kirisaki or Someone. 
+
+    + ```date```, Date created, the date format must be DD-MM-YYYY HH:mm ```Not Hhmm......``` just kidding :D.
+
+    + ```category```, Not a important thing, but just add it, eg: Artificial Intelegence or GIS or something.
+
+    + ```slug```, Slug URL, eg: welcome-to-pycon-id-2020.
+
+    + ```image```, image banner & thumbnail for this article, eg: pycon.jpeg , save the image in ```static/img/blogs``` directory.
+
+3.  See : [Sample Article](https://raw.githubusercontent.com/pyconid/pyconid2020/develop/content/articles/article-one.md)
+
+4. After creating article markdown file, don't forget to register your article to ```articles``` variable in ```content/pages/blog.md```. 
+
+5. Use this following pattern to add your article in ```articles``` variable ```Title~Author~DateCreated~Slug~ImageThumbnail```, eg:  ```Welcome to PyCon ID 2020~Adif Dwi Maulana~08-08-2020 14:11:12~welcome-to-pycon-id-2020~1.JPG```
+
+6. Done
+
+### Add / Update Speakers
+Soon
 
 ## Code of Conduct
 ### Our Pledge
