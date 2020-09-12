@@ -1,4 +1,4 @@
-title: Call For Paper
+title: Call For Proposal
 Template: general
 
 ### Speak at PyCon ID
@@ -19,7 +19,7 @@ We’re looking for proposals on every aspect of Python: basic, intermediate or 
 
 **Talks** are limited to a maximum of **40 minutes**, and may preferably be accompanied with helping material (presentation, image, document, etc). The time slots include time for questions from the audience, so please plan your talk accordingly.
 
-**Lightning Talks** are limited to a maximum of **7 minutes**. The lightning talks session will not have Q&A time slot on stage.
+**Lightning Talks** are limited to a maximum of **5 minutes**. The lightning talks session will not have Q&A time slot on stage.
 
 Talks could be on a variety of topics (for further details and inspiration, check out the next section).
 

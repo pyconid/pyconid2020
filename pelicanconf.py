@@ -60,7 +60,7 @@ SPEAKER_SAVE_AS = 'speaker/{slug}.html'
 # Menu Item Config
 MENUITEMS = (
     # ('Our Speakers', 'speakers'),
-    ('Call for Paper', 'call-for-paper'),
+    ('Call for Proposal', 'call-for-proposal'),
     #('Buy Ticket', 'ticket'),
     # ('Schedule', 'schedule'),
     # ('Speakers', 'speakers'),
