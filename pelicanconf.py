@@ -61,7 +61,7 @@ SPEAKER_SAVE_AS = 'speaker/{slug}.html'
 MENUITEMS = (
     # ('Our Speakers', 'speakers'),
     ('Call for Proposal', 'call-for-proposal'),
-    #('Buy Ticket', 'ticket'),
+    ('Buy Ticket', 'ticket'),
     # ('Schedule', 'schedule'),
     # ('Speakers', 'speakers'),
     ('Sponsorship Opportunity', 'sponsor'),
