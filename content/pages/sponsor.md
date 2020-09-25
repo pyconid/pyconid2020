@@ -11,15 +11,16 @@ prospectus_and_benefits:
     <strong>Other.</strong> Sponsoring can show your gratitude for Python community. It's one of CSR activity that supports technology companies and engineers community.
 sponsorship_options: Free Tickets, 10, 5, 3
     Virtual Booth, Yes, Yes, No
-    Sponsorship talk slot, Yes, Yes, No
-    Lightning talk slot, Yes, Yes, No
+    Sponsorship Talk Slot, 2, 1, -
+    Special Booth Tour, 5 minutes, 5 minutes, 3 minutes
     Logo on Virtual Background, Yes, Yes, No
-    Video ads between sessions, 60 seconds, 30 seconds, 15 seconds
+    Video Ads between Sessions, 60 seconds, 30 seconds, 15 seconds
     Logo on Website, Large, Medium, Small
     Dedicated Website Page, Yes, No, No
     Logo on Publication Media, Large, Medium, Small
     Logo on T-Shirt, Yes, No, No
-    Logo on Package Box, Yes, Yes, Yes,
+    Logo on Mask, Yes, No, No
+    Logo on Package Box, Yes, Yes, No
     Logo on Stickers, Large, Medium, Small
     Logo on Message Letter, Yes, Yes, Yes
     Price, <b>IDR<br><span style="font-size: 17px;">35.000.000</span></b>, <b>IDR<br><span style="font-size: 17px;">25.000.000</span></b>, <b>IDR<br><span style="font-size: 17px;">10.000.000</span></b>,
