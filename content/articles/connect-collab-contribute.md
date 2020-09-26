@@ -30,4 +30,4 @@ This is similar to the organization of PyCon ID. In PyCon ID, there are also thr
 
 #### **Connect - Collab - Contribute**
 
-The organization of PyCon ID has the same ["gotong-royong"](https://id.wikipedia.org/wiki/Gotong_royong) spirit with the development of open source software. PyCon ID is an event organized by volunteers from the community and presented for the community too. Hopefully, PyCon ID 2020 can be a means of **connection** and **collaboration** for Pythonistas in the midst of COVID-19 pandemic. Moreover, let's **contribute** together to maintain and develop the Python ecosystem.
+The organization of PyCon ID has the same ["gotong-royong"](https://id.wikipedia.org/wiki/Gotong_royong) spirit in the development of open source software. PyCon ID is an event organized by volunteers from the community and presented for the community too. Hopefully, PyCon ID 2020 can be a means of **connection** and **collaboration** for Pythonistas in the midst of COVID-19 pandemic. Moreover, let's **contribute** together to maintain and develop the Python ecosystem.
