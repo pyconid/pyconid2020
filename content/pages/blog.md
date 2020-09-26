@@ -1,5 +1,5 @@
 title: Blog 
 Template: blog
 slug: blog
-articles: Welcome to PyCon ID 2020~Adif Dwi Maulana~08-08-2020 14:11:12~welcome-to-pycon-id-2020~image-1.JPG
-    Lorem Ipsum Dolor sit Amet~Aldion Amirrul~08-08-2020 14:11:12~welcome-to-pycon-id-2020~image-1.JPG
+articles: PyCon ID 2020 is Here~Dima Maharika Dinama~25-09-2020 10:15~pycon-id-2020-is-here~image-1-min.JPG
+    Connect - Collab - Contribute~Sigit Dewanto~26-09-2020 12:51~connect-collab-contribute~connect-collab-contribute.JPG

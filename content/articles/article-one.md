@@ -1,23 +1,22 @@
-title: Welcome to PyCon ID 2020
+title: PyCon ID 2020 is Here!
 Template: blog-single
-author: Adif Dwi Maulana
-date: 06-09-2020 02:46
+author: Dima Maharika Dinama
+date: 25-09-2020 10:15
 category: Python
-slug: welcome-to-pycon-id-2020
-image: image-1.JPG
+slug: pycon-id-2020-is-here
+image: image-1-min.JPG
 
-#### **Welcome to Python Conference Indonesia 2020**
+#### **PyCon ID 2020 is Here!**
 
-Officiis animi maxime nulla quo et harum eum quis a. Sit hic in qui quos fugit ut rerum atque. Optio provident dolores atque voluptatem rem excepturi molestiae qui. Voluptatem laborum omnis ullam quibusdam perspiciatis nulla nostrum. Voluptatum est libero eum nesciunt aliquid qui. Quia et suscipit non sequi. Maxime sed odit. Beatae nesciunt nesciunt accusamus quia aut ratione aspernatur dolor. Sint harum eveniet dicta exercitationem minima. Exercitationem omnis asperiores natus aperiam dolor consequatur id ex sed. Quibusdam rerum dolores sint consequatur quidem ea. Beatae minima sunt libero soluta sapiente in rem assumenda. Et qui odit voluptatem. Cum quibusdam voluptatem voluptatem accusamus mollitia aut atque aut. 
+Hello, Pythonista!
+Since 2017, Indonesian Python Community has organized a Python Conference Indonesia or PyCon ID every year. In 2017, the first PyCon ID was held at Surabaya. Taking “A New Beginning” as the theme, PyCon ID 2017 became a beginning for an annual event for Pythonista in Indonesia to gather and talk about everything in the Python programming language. Since then PyCon ID has been held annually.
 
-#### Ut repellat blanditiis est dolore sunt dolorum quae.
+The following year, it’s Jakarta's turn to become host. PyCon ID 2018 which was held at Kalbis Institute successfully gathered up to 400 participants and 30 speakers. The theme “Python for Everyone” is taken as a form of the spirit that Python language can be used and enjoyed by everyone. In 2019 PyCon ID was held at Ciputra University, Surabaya. PyCon ID 2019 had the theme “Beauty of Python” with the aim of spreading the beauty of Python language. Just like the year before, this event has gathered up to 450 Pythonista and held successfully. At the end of PyCon ID 2019, the organizer challenge other cities such as Bandung, Yogyakarta, Makassar, and Jakarta to held PyCon as host.
 
- Rerum ea est assumenda pariatur quasi et quam. Facilis nam porro amet nostrum. In assumenda quia quae a id praesentium. Quos deleniti libero sed occaecati aut porro autem. Consectetur sed excepturi sint non placeat quia repellat incidunt labore. Autem facilis hic dolorum dolores vel. Consectetur quasi id et optio praesentium aut asperiores eaque aut. Explicabo omnis quibusdam esse. Ex libero illum iusto totam et ut aut blanditiis. Veritatis numquam ut illum ut a quam vitae.
+Since the start of this year, PyCon ID 2020 preparation has started. Some regions have high enthusiasm for becoming host of PyCon ID 2020. But, 2020 is not going as well as we hope. COVID-19 pandemic that spread around the world is giving a big impact for organizing events that gather a lot of people. A lot of events have to be cancelled. This also give an impact to PyCon ID 2020.
 
-Alias quia non aliquid. Eos et ea velit. Voluptatem maxime enim omnis ipsa voluptas incidunt. Nulla sit eaque mollitia nisi asperiores est veniam. 
+This pandemic has indeed prevented us from being physically present at the same place. However, this pandemic should not be a barrier so that Pythonistas can still meet and attend PyCon ID. With today’s available technology, events can be held online and the essence of the event can still be achieved. Therefore, it has been decided that **Python Conference Indonesia 2020 will be held online.** This year, there’s no specific city that will become host of PyConID 2020. This year, PyCon ID 2020 will be held in many places. PyCon ID 2020 is held at every Pythonista place.
 
- Similique neque nam consequuntur ad non maxime aliquam quas. Quibusdam animi praesentium. Aliquam et laboriosam eius aut nostrum quidem aliquid dicta. Et eveniet enim. Qui velit est ea dolorem doloremque deleniti aperiam unde soluta. Est cum et quod quos aut ut et sit sunt. Voluptate porro consequatur assumenda perferendis dolore.
+With the theme “Connect, Collab, Contribute”, PyCon ID 2020 still wants to be an event where Pythonista around the world can be connected, collaborate with each other, and give contribution wherever possible.
 
-Sit repellat hic cupiditate hic ut nemo. Quis nihil sunt non reiciendis. Sequi in accusamus harum vel aspernatur. Excepturi numquam nihil cumque odio. Et voluptate cupiditate. 
-
-Sed quo laboriosam qui architecto. Occaecati repellendus omnis dicta inventore tempore provident voluptas mollitia aliquid. Id repellendus quia. Asperiores nihil magni dicta est suscipit perspiciatis. Voluptate ex rerum assumenda dolores nihil quaerat. Dolor porro tempora et quibusdam voluptas. Beatae aut at ad qui tempore corrupti velit quisquam rerum. Omnis dolorum exercitationem harum qui qui blanditiis neque. Iusto autem itaque. Repudiandae hic quae aspernatur ea neque qui. Architecto voluptatem magni. Vel magnam quod et tempora deleniti error rerum nihil tempora. 
+We will be waiting for you at Python Conference Indonesia 2020!
