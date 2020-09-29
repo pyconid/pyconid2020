@@ -1974,4 +1974,5 @@ body.mobile-nav-active #mobile-nav-toggle {
 .btn-cta:hover {
   border: 2px solid #0e1b4d;
   background: #0e1b4d;
+  color: #fff !important;
 }
