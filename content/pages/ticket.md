@@ -14,9 +14,9 @@ For international participants or overseas shipping addresses, you can still get
 ### **Normal Ticket**
 This ticket includes event access for two days. We will send the link for the event to your registered email address one week before the event.
 
-<div style="display: flex; flex-direction: row; justify-content: center" class="mb-4">
+<!-- <div style="display: flex; flex-direction: row; justify-content: center" class="mb-4">
         <img src="http://pycon.id/theme/img/blogs/connect-collab-contribute.JPG" width="300" />
-</div>
+</div> -->
 
 ### **Merchandise Ticket**
 This ticket includes event access for two days and PyCon ID 2020 Exclusive Merchandise. We will send the link for the event to your registered email address one week before the event. We will send your merchandise in about one week before the event and we will inform your AWB via your registered email.
@@ -24,5 +24,3 @@ This ticket includes event access for two days and PyCon ID 2020 Exclusive Merch
 ### **Patron Ticket**
 Be a Patron by supporting this event. Your name will be listed on Patron Section.
 This ticket includes event access for two days and PyCon ID 2020 Exclusive Merchandise. We will send the link for the event to your registered email address one week before the event. We will send your merchandise in about one week before the event and we will inform your AWB via your registered email.
-
-**[Get your ticket now!](https://ticket.pycon.id/event/pycon-indonesia-2020)**
