@@ -1976,3 +1976,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: #0e1b4d;
   color: #fff !important;
 }
+
+@media (max-width: 680px) {
+  .ticket-img {
+    width: 240px;
+  }
+}

@@ -15,14 +15,14 @@ For international participants or overseas shipping addresses, you can still get
 This ticket includes event access for two days. We will send the link for the event to your registered email address one week before the event.
 
 <div style="display: flex; flex-direction: row; justify-content: center" class="mb-4">
-        <img src="http://pycon.id/theme/img/ticket/ticket-normal.jpg" width="300" />
+        <img src="http://pycon.id/theme/img/ticket/ticket-normal.jpg" width="500" class="ticket-img" />
 </div>
 
 ### **Merchandise Ticket**
 This ticket includes event access for two days and PyCon ID 2020 Exclusive Merchandise. We will send the link for the event to your registered email address one week before the event. We will send your merchandise in about one week before the event and we will inform your AWB via your registered email.
 
 <div style="display: flex; flex-direction: row; justify-content: center" class="mb-4">
-        <img src="http://pycon.id/theme/img/ticket/ticket-merch.jpg" width="300" />
+        <img src="http://pycon.id/theme/img/ticket/ticket-merch.jpg" width="500" class="ticket-img" />
 </div>
 
 ### **Patron Ticket**
@@ -30,5 +30,5 @@ Be a Patron by supporting this event. Your name will be listed on Patron Section
 This ticket includes event access for two days and PyCon ID 2020 Exclusive Merchandise. We will send the link for the event to your registered email address one week before the event. We will send your merchandise in about one week before the event and we will inform your AWB via your registered email.
 
 <div style="display: flex; flex-direction: row; justify-content: center" class="mb-4">
-        <img src="http://pycon.id/theme/img/ticket/ticket-patron.jpg" width="300" />
+        <img src="http://pycon.id/theme/img/ticket/ticket-patron.jpg" width="500" class="ticket-img" />
 </div>
