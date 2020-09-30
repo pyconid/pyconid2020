@@ -4,7 +4,7 @@ author: Dima Maharika Dinama
 date: 25-09-2020 10:15
 category: Python
 slug: pycon-id-2020-is-here
-image: image-1-min.JPG
+image: pyconid-is-here.png
 
 #### **PyCon ID 2020 is Here!**
 
