@@ -1977,7 +1977,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff !important;
 }
 
-@media (max-width: 680px) {
+.ticket-img {
+  max-width: 500px;
+  max-height: 160px;
+}
+
+@media (max-width: 600px) {
   .ticket-img {
     max-width: 240px;
     max-height: 80px;
