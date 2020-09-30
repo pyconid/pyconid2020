@@ -32,5 +32,3 @@ This ticket includes event access for two days and PyCon ID 2020 Exclusive Merch
 <div style="display: flex; flex-direction: row; justify-content: center" class="mb-4">
         <img src="http://pycon.id/theme/img/ticket/ticket-patron.jpg" width="300" />
 </div>
-
-**[Get your ticket now!](https://ticket.pycon.id/event/pycon-indonesia-2020)**
