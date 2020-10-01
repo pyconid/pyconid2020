@@ -1958,11 +1958,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   letter-spacing: 1px;
   display: inline-block;
   text-align: center;
-  padding: 12px 0px;
+  padding: 18px 32px;
   border-radius: 50px;
   transition: 0.5s;
   line-height: 1;
-  width: 200px;
+  width: auto;
   margin: 0 0 20px 0;
   color: #fff;
   -webkit-animation-delay: 0.8s;
@@ -1975,4 +1975,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   border: 2px solid #0e1b4d;
   background: #0e1b4d;
   color: #fff !important;
+}
+
+@media (max-width: 680px) {
+  .ticket-img {
+    width: 240px;
+  }
 }
