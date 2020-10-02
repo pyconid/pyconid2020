@@ -1,6 +1,6 @@
 title: Code of Conduct
 Template: general
-met_description: A code of conduct is a set of rules outlining the norms, rules, and responsibilities of, and or proper practices for an individual. By attending PyCon ID 2020, you agree with the Code of Conduct. 
+meta_description: A code of conduct is a set of rules outlining the norms, rules, and responsibilities of, and or proper practices for an individual. By attending PyCon ID 2020, you agree with the Code of Conduct. 
 ### What is Code of Conduct?
 
 A code of conduct is a set of rules outlining the norms, rules, and responsibilities of, and or proper practices for an individual. By attending PyCon ID 2020, you agree with the Code of Conduct. 
