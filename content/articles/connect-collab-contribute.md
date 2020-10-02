@@ -5,6 +5,7 @@ date: 26-09-2020 12:51
 category: Pycon
 slug: connect-collab-contribute
 image: connect-collab-collaborate.png
+meta_description: "Connect - Collab - Contribute", that is the theme that I proposed for PyCon Indonesia (PyCon ID) this year.
 
 "Connect - Collab - Contribute", that is the theme that I proposed for PyCon Indonesia (PyCon ID) this year. It turns out that the theme was also the one that got the most votes from my fellow committee members. As the consequence, I get the task to write an article explaining the theme. Let’s discuss it one by one.
 

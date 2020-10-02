@@ -1,6 +1,6 @@
 title: Call For Proposal
 Template: general
-
+meta_description: PyCon Indonesia is pleased to announce that the Call For Proposals is now open.
 ### Speak at PyCon ID
 
 PyCon Indonesia is pleased to announce that the Call For Proposals is now open. We are calling out for speakers to share their Python knowledge which would intrigue the Python community at this event!

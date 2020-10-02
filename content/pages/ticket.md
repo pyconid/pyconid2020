@@ -1,6 +1,8 @@
 title: Ticket
 Template: ticket
 slug: ticket
+meta_description: PyCon Indonesia 2020 tickets are sold in the following types. Tickets are required to participate in the online conference.
+
 
 PyCon Indonesia 2020 tickets are sold in the following types. Tickets are required to participate in the online conference.
 

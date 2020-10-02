@@ -1,6 +1,7 @@
 title: Sponsor
 Template: sponsor
 slug: sponsor
+meta_description: Sponsoring can show your gratitude for Python community. It's one of CSR activity that supports technology companies and engineers community.
 prospectus_and_benefits: 
     <strong>Recruiting.</strong> What better place to find Python developers than a gathering of 250 of them? If you’re hiring, PyCon is the place to be. The conference has long been a great way to find the talented developers so many companies are searching for, so much that we added on-site Job Fair to make it even easier.
     <strong>Branding.</strong> It is an opportunity to appeal that your company is technology-oriented organization. The posting of the logo will be recorded by movie and will be broadcasted on the web-media afterwards, leading to branding of the company and products. Continuous exposure of names and logos of companies, products, and services can generate many merits even after this conference, such as appeal to participants, topicality and exciting experience.
