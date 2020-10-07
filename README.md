@@ -1,7 +1,7 @@
 <img src="https://pycon.id/images/pycon-logo-cropped.png" align="center" />
 
 # Python Conference Indonesia 2020 Official Website
-Python conference 2020 official website  documentation.
+Python conference Indonesia 2020 official website  documentation.
 
 ## Run Development Server
 
