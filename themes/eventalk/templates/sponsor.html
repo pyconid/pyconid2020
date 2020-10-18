@@ -4,6 +4,9 @@
 {% block meta_description %} {{ page.meta_description }} {% endblock %}
 
 {% block content %}
+{% include 'sponsors-list.html' %}
+
+
 <section class="default-page section-with-bg">
     <div class="container" data-aos="fade-up">
         <div class="section-header">
@@ -20,8 +23,8 @@
     </div>
 </section>
 
-<section>
-    <div class="container mt-5" data-aos="fade-up">
+<section class="default-page">
+    <div class="container" data-aos="fade-up">
         <div class="section-header">
             <h2>Option</h2>
             <p>Sponsorship Option</p>
@@ -75,7 +78,6 @@
     </div>
 </section>
 
-{% include 'sponsors-list.html' %}
 {% endblock %}
 
 {% block custom_js %}
