@@ -7,7 +7,7 @@ slug: announcing-scout-apm-as-gold-sponsor
 image: scout-apm-logo.png
 meta_description: Scout APM logo, PyCon ID 2020 sponsor
 
-We are excited to introduce Scout APM as a Gold Sponsor for PyCon Indonesia 2020.
+We are excited to introduce [Scout APM](https://scoutapm.com/) as a Gold Sponsor for PyCon Indonesia 2020.
 
 >Scout APM is application performance monitoring that helps Python developers quickly pinpoint and resolve performance issues before your customer ever sees them.
 
