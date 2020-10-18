@@ -7,7 +7,7 @@ slug: announcing-microsoft-as-platinum-sponsor
 image: microsoft-logo.png
 meta_description: Microsoft logo, PyCon ID 2020 sponsor
 
-We are excited to introduce Microsoft as a Platinum Sponsor for PyCon Indonesia 2020.
+We are excited to introduce [Microsoft](https://www.microsoft.com/) as a Platinum Sponsor for PyCon Indonesia 2020.
 
 > Microsoft is the leading platform and productivity company for the mobile-first, cloud-first world, and its mission is to empower every person and every organization on the planet to achieve more.
 
