@@ -1,4 +1,4 @@
-title: Announcing Microsoft as Platinum Sponsor
+title: Announcing Microsoft as a Platinum Sponsor
 Template: blog-single
 author: Sigit Dewanto
 date: 18-10-2020 17:31
