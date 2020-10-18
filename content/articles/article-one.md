@@ -5,6 +5,7 @@ date: 25-09-2020 10:15
 category: Python
 slug: pycon-id-2020-is-here
 image: pyconid-is-here.png
+meta_description: Since 2017, Indonesian Python Community has organized a Python Conference Indonesia or PyCon ID every year. In 2017, the first PyCon ID was held at Surabaya.
 
 #### **PyCon ID 2020 is Here!**
 
