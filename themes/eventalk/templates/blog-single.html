@@ -7,7 +7,7 @@
 
 <section id="blogs-details">
     <div class="container" data-ao="fade-up">
-            <div class="details">
+            <div class="details p-5 mb-5 border rounded text-justify">
                 <h2>{{article.title}}</h2>
                 <img src="{{SITEURL}}/theme/img/blogs/{{article.image}}" class="img-fluid" width="800" />
                 <div class="info">
@@ -15,8 +15,8 @@
                     <p>Author : {{article.author}}</p>
                 </div>
 
+                {{ article.content }}
         </div>
-            {{ article.content }}
     </div>
 </section>
 
