@@ -1,3 +1,3 @@
 title: Microsoft
-Template: sponsor-details
+Template: general
 slug: microsoft
