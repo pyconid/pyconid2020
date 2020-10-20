@@ -4,26 +4,8 @@
 {% block meta_description %} {{ page.meta_description }} {% endblock %}
 
 {% block content %}
-{% include 'sponsors-list.html' %}
-
 
 <section class="default-page section-with-bg">
-    <div class="container" data-aos="fade-up">
-        <div class="section-header">
-            <h2>Prospect & Benefit</h2>
-            <p>Sponsor Prospect & Benefit</p>
-        </div>
-        <div class="text-justify">
-            {% for item in page.prospectus_and_benefits %}
-            <p>
-                {{ item }}
-            </p>
-            {% endfor %}
-        </div>
-    </div>
-</section>
-
-<section class="default-page">
     <div class="container" data-aos="fade-up">
         <div class="section-header">
             <h2>Option</h2>
@@ -60,6 +42,24 @@
     </div>
 </section>
 
+
+<section class="default-page">
+    <div class="container" data-aos="fade-up">
+        <div class="section-header">
+            <h2>Prospect & Benefit</h2>
+            <p>Sponsor Prospect & Benefit</p>
+        </div>
+        <div class="text-justify">
+            {% for item in page.prospectus_and_benefits %}
+            <p>
+                {{ item }}
+            </p>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+
 <section class="section-with-bg">
     <div class="container mt-lg-3 pt-5 pb-5 pb-1" data-aos="fade-up">
         <div class="row d-flex justify-content-center">
@@ -77,6 +77,8 @@
         </div>
     </div>
 </section>
+
+{% include 'sponsors-list.html' %}
 
 {% endblock %}
 

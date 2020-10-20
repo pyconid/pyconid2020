@@ -40,15 +40,14 @@ STATIC_PATH = ['images', 'pdfs']
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
+# Page Config
 PAGE_PATHS = ['pages']
 PAGE_URL = '{slug}'
 PAGE_SAVE_AS = '{slug}.html'
 SCHEDULE_URL = '/schedule'
-# BLOG_URL = '/blog'
-
 
 # Article Config
-ARTICEL_PATHS = ['articles']
+ARTICLE_PATHS = ['articles']
 ARTICLE_URL = 'blog/'
 ARTICLE_SAVE_AS = 'blog/{slug}.html'
 
@@ -57,6 +56,11 @@ SPEAKER_PATHS = ['speakers']
 SPEAKER_URL = 'speakers/'
 SPEAKER_SAVE_AS = 'speaker/{slug}.html'
 
+# Sponsor Config
+SPONSOR_PATHS = ['sponsors']
+SPONSOR_URL = 'sponsor/'
+SPONSOR_SAVE_AS  = 'sponsor/{slug}.html'
+
 # Menu Item Config
 MENUITEMS = (
     # ('Our Speakers', 'speakers'),
@@ -64,7 +68,7 @@ MENUITEMS = (
     ('Buy Ticket', 'ticket'),
     # ('Schedule', 'schedule'),
     # ('Speakers', 'speakers'),
-    ('Sponsorship Opportunity', 'sponsor'),
+    ('Sponsorship', 'sponsor'),
     # ('Participant', 'participant-mail-list'),
     # ('Speak at Pycon ID', 'call-for-paper'),
     ('Code of Conduct', 'code-of-conduct'),
