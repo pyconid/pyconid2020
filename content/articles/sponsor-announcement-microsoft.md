@@ -4,7 +4,7 @@ author: Sigit Dewanto
 date: 18-10-2020 17:31
 category: Sponsor
 slug: announcing-microsoft-as-platinum-sponsor
-image: microsoft-logo.png
+image: logo-microsoft.png
 meta_description: Microsoft logo, PyCon ID 2020 sponsor
 
 We are excited to introduce [Microsoft](https://www.microsoft.com/) as a Platinum Sponsor for PyCon Indonesia 2020.

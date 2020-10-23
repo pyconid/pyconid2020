@@ -4,7 +4,7 @@ author: Sigit Dewanto
 date: 19-10-2020 18:42
 category: Sponsor
 slug: announcing-qiscus-as-silver-sponsor
-image: qiscus-logo.png
+image: logo-qiscus.png
 meta_description: Qiscus logo, PyCon ID 2020 sponsor
 
 We are excited to introduce [Qiscus](http://qiscus.com/) as a Silver Sponsor for PyCon Indonesia 2020.
