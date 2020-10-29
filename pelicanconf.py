@@ -51,7 +51,6 @@ ARTICLE_PATHS = ['articles']
 ARTICLE_URL = 'blog/'
 ARTICLE_SAVE_AS = 'blog/{slug}.html'
 
-
 # Menu Item Config
 MENUITEMS = (
     # ('Our Speakers', 'speakers'),
