@@ -1,3 +1,4 @@
 title: Microsoft
 Template: general
-slug: microsoft
+slug: sponsors/microsoft
+

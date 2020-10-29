@@ -1,6 +1,6 @@
 title: Speakers
 Template: speaker-details
-slug: guido-van-rossum
+slug: speaker/guido-van-rossum
 speaker_name: Guido Van Rossum
 speaker_from: Python Foundation
 speaker_talk_title: Python for Better Future
