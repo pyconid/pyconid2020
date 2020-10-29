@@ -28,16 +28,19 @@ PyconID 2020
 └───content
 │   │
 │   └───pages
+|   |   |
+|   |   └───speakers
+|   |   └───sponsors 
+|   |   |   
 │   |   │   speakers.md
 │   |   │   sponsor.md
 |   |   |   blog.md
 │   |   │   ...
 │   |
 │   └───articles
-|   |   |   example_article.md
-|   |   |   ...
-|   |
-│   └───speakers (soon)
+|       |   example_article.md
+|       |   ...
+|   
 |
 └───themes
     |
