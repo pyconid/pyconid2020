@@ -1,7 +1,7 @@
 {% block metaHtml %}
       <meta name="name" content="PyCon Indonesia 2019">
       <meta name="description" content="PyCon Indonesia is a conference where Python users, or people interested in Python, gather to learn from each other and meet other members of the community. We hope that everyone joining PyCon ID will not only learn new and exciting things, but also meet new friends and strengthen the connection with the community, and thus the community itself. This year, we chose 'The Beauty of Python' as our theme. The Pycon ID staff is continuing to work hard on making a conference that will allow everyone to have a great time and unlock new possibilities through Python.">
-    {% endblock metaHtml %}
+{% endblock metaHtml %}
     <meta http-equiv="x-ua-compatible" content="IE=edge,chrome=1">
     <meta name="generator" content="Pelican">
 

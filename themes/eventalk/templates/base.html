@@ -15,26 +15,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{%block title%}{%endblock%}</title>
-    <meta name="description" content="{% block meta_description %}PyCon Indonesia is a conference where Python users, or people interested in Python, 
-            gather to learn from each other and meet other members of the community.{% endblock %}">
-    <meta name="robots" content="index, nofollow">
+    <meta name="name" content="
+        {% block meta_name %}
+            PyCon Indonesia 2020
+        {% endblock %}
+    ">
+    <meta name="description" content="
+        {% block meta_description %}
+            PyCon Indonesia is a conference where Python users, or people interested in Python, gather to learn from each other and meet other members of the community.
+        {% endblock %}
+    ">
+    <!-- Facebook Meta Tags -->
+    {% block facebookMeta %}
+        <meta property="og:title" content="PyCon Indonesia 2020">
+        <meta property="og:description" content="PyCon Indonesia is a conference where Python users, or people interested in Python, gather to learn from each other and meet other members of the community. We hope that everyone joining PyCon ID will not only learn new and exciting things, but also meet new friends and strengthen the connection with the community, and thus the community itself. This year, we chose 'The Beauty of Python' as our theme. The Pycon ID staff is continuing to work hard on making a conference that will allow everyone to have a great time and unlock new possibilities through Python.">
+        <meta property="og:url" content="https://pycon.id/">
+        <meta property="og:image" content="https://pycon.id/images/pycon-logo-cropped.png">
+    {% endblock facebookMeta %}
 
+    <!-- Twitter Meta Tags -->
+    {% block twitterMeta %}
+        <meta name="twitter:image" content="https://pycon.id/images/pycon-logo-cropped.png">
+        <meta name="twitter:title" content="PyCon Indonesia 2020">
+        <meta name="twitter:description" content="PyCon Indonesia is a conference where Python users, or people interested in Python, gather to learn from each other and meet other members of the community. We hope that everyone joining PyCon ID will not only learn new and exciting things, but also meet new friends and strengthen the connection with the community, and thus the community itself. This year, we chose 'The Beauty of Python' as our theme. The Pycon ID staff is continuing to work hard on making a conference that will allow everyone to have a great time and unlock new possibilities through Python.">
+    {% endblock twitterMeta %}
+
+    <meta name="generator" content="Pelican">
+    <meta name="robots" content="index, nofollow">
     <!-- Favicons -->
     <link href="{{SITEURL}}/images/favicon.png" rel="icon">
     <link href="{{SITEURL}}/images/apple-touch-icon.png" rel="apple-touch-icon">
-
     <!-- Google Fonts -->
-    <link
-        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800"
-        rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet">
     <!-- Vendor CSS Files -->
     <link href="{{SITEURL}}/theme/css/bootstrap/bootstrap.min.css" rel="stylesheet">
     <link href="{{SITEURL}}/theme/css/venobox.css" rel="stylesheet">
     <link href="{{SITEURL}}/theme/css/font-awesome.min.css" rel="stylesheet">
     <link href="{{SITEURL}}/theme/css/owl.carousel.min.css" rel="stylesheet">
     <link href="{{SITEURL}}/theme/css/aos.css" rel="stylesheet">
-
     <!-- Template Main CSS File -->
     <link href="{{SITEURL}}/theme/css/custom.css" rel="stylesheet">
 </head>
