@@ -51,16 +51,6 @@ ARTICLE_PATHS = ['articles']
 ARTICLE_URL = 'blog/'
 ARTICLE_SAVE_AS = 'blog/{slug}.html'
 
-# Speaker Config
-SPEAKER_PATHS = ['speakers']
-SPEAKER_URL = 'speakers/'
-SPEAKER_SAVE_AS = 'speaker/{slug}.html'
-
-# Sponsor Config
-SPONSOR_PATHS = ['sponsors']
-SPONSOR_URL = 'sponsor/'
-SPONSOR_SAVE_AS  = 'sponsor/{slug}.html'
-
 # Menu Item Config
 MENUITEMS = (
     # ('Our Speakers', 'speakers'),
