@@ -1013,7 +1013,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #schedule .schedule-item h4 {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 600;
   margin-bottom: 5px;
 }
@@ -1026,7 +1026,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #schedule .schedule-item p {
-  font-style: italic;
+  /* font-style: italic; */
   color: #152b79;
   margin-bottom: 0;
 }
