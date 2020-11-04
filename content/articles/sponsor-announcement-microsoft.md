@@ -13,4 +13,4 @@ We are excited to introduce [Microsoft](https://www.microsoft.com/) as a Platinu
 
 > Microsoft and PyCon have had a strong relationship globally for the past 5 years. Microsoft has worked with Python communities to create tools and services which provide ease of development. In this PyCon, Microsoft is super excited to share the improvements we’ve made for Python developers in Azure, especially our newer offerings that enable you to build and deploy Python applications in the cloud at any scale. Tune into Microsoft sessions to learn more about managing data science pipeline with VS code, serverless being the future, and responsible AI.
 
-> Subscribe to our Newsletter at https://aka.ms/devID
+> Subscribe to our Newsletter at [https://aka.ms/devID](https://aka.ms/devID)
