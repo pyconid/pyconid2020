@@ -91,7 +91,7 @@ Creating new article, follow the steps below.
 
     + ```image```, image banner & thumbnail for this article, eg: pycon.jpeg , save the image in ```static/img/blogs``` directory.
 
-3.  See : [Sample Article](https://raw.githubusercontent.com/pyconid/pyconid2020/develop/content/articles/article-one.md)
+3.  See : [Sample Article](https://raw.githubusercontent.com/pyconid/pyconid2020/master/content/articles/article-one.md)
 
 4. After creating article markdown file, don't forget to register your article to ```articles``` variable in ```content/pages/blog.md```. 
 
@@ -100,7 +100,41 @@ Creating new article, follow the steps below.
 6. Done
 
 ### Add / Update Speakers
-Soon
+Creating speaker details, follow the steps below.
+1. Create new markdown file in ```contents/pages/speakers```.
+2. make sure you are already declaring these variable before create article content:
+
+    + ```title```, use ```Speakers``` as title
+
+    + ```Template```, use ```speaker-details``` template to create a speaker detail.
+
+    + ```slug```, make sure to add ```speaker/``` before speaker's name as a slug, eg: speaker/guido-van-rossum
+
+    + ```speaker_name```, Speaker's name, eg: Guido Van Rossum or Someone.
+
+    + ```speaker_from```, Speaker's affiliation, eg: Python Software Foundation.
+
+    + ```speaker_talk_title```, Speaker's Talk Title, eg: Building Static Site with Pelican.
+
+    + ```speaker_img```, Image Path, make sure you already put the speaker's image on ```themes/static/img/speakers``` before doing Pull Request, eg: guidovr.jpg
+
+    + ```speaker_twitter```, Speaker's twitter username, eg: gvanrossum or anything.
+
+    + ```speaker_github```, Speaker's github username, eg: gvanrossum or anything.
+
+    + ```speaker_linkedin```, Speaker's linkedin username, eg: guido-van-rossum-4a0756 or anything.
+
+    + ```speaker_bio```, Speaker's biography username, you can get the speaker's biography from the spreadsheet
+
+    + ```talk_abstract```, Speaker's talk abstract, you can get the speaker's talk abstract from the spreadsheet.
+
+3.  See : [Sample Speaker Details](https://raw.githubusercontent.com/pyconid/pyconid2020/master/content/pages/speakers/guido-van-rossum.md)
+
+4. After creating article markdown file, don't forget to register your speaker details to ```keynote_speakers``` or ```speakers``` variable in ```content/pages/speakers.md```.
+
+5. Use this following pattern to add your article in ```articles``` variable ```speaker_talk_title~speaker_name~speaker_img~speaker_linkedin~speaker_github~speaker_twitter~slug```, eg: ```Oops! I Became an Open Source Mantainer! 😱~Mariatta Wijaya~mariatta-wijaya.jpg~mariatta~mariatta~mariatta~mariatta-wijaya```
+
+6. Done
 
 ## Code of Conduct
 ### Our Pledge
