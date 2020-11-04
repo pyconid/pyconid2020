@@ -9,7 +9,7 @@
   <div class="container">
     <div class="section-header">
       <h2>Speaker Details</h2>
-      <p>{{ page.speaker_talk }}</p>
+      <p>{{ page.speaker_talk_title }}</p>
     </div>
 
     <div class="row">
@@ -23,6 +23,12 @@
           <h6><i>{{ page.speaker_from }}</i></h6>
           
           {{ page.speaker_bio }}
+
+          <br />
+          <br />
+          
+          {{ page.talk_abstract }}
+
           <hr>
           <div class="social">
             <a href="{{ page.speaker_twitter }}"><i class="fa fa-twitter"></i></a>

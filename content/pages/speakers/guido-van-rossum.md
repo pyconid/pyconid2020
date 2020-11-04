@@ -8,5 +8,5 @@ speaker_img:guidovr.jpg
 speaker_twitter: testtest
 speaker_facebook: testtests
 speaker_linkedin: test test
-speaker_bio: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada justo sodales ultrices aliquam. Donec in cursus justo. Sed ac mollis nibh. In ac pellentesque ex, vel vehicula mi. Aliquam feugiat porta porttitor. Nullam a justo sagittis, volutpat odio nec, sollicitudin enim. Mauris facilisis sodales sapien in iaculis. Integer ut interdum neque. Proin tristique elit vitae venenatis faucibus. Fusce eu mauris sollicitudin, pharetra sapien ac, eleifend mi. Phasellus facilisis massa sit amet lacus vestibulum scelerisque ac quis lorem.
-    
+speaker_bio: Hi, my name is Faul and I am currently working as a Data Analyst, but sometimes do modelling based on companies needed. Love analytics, football, console games, and sharing to others. A content creator on Medium and Spotify, and many more.
+talk_abstract: As we know that mainly people are using Flask or Django for creating a web app, now introducing Streamlit, which is a package for creating an application, mainly for data science and machine learning app, in this talk I will talk about a friendly intro about this newcomers.
