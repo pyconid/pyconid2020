@@ -124,9 +124,9 @@ Creating speaker details, follow the steps below.
 
     + ```speaker_linkedin```, Speaker's linkedin username, eg: guido-van-rossum-4a0756 or anything.
 
-    + ```speaker_bio```, Speaker's biography username, you can get the speaker's biography from the spreadsheet
+    + ```speaker_bio```, Speaker's biography username, you can get the speaker's biography from the [spreadsheet](https://docs.google.com/spreadsheets/d/1g8B45lvfdo9vMDCVqko-QhpmhzVhJYoVNtDkcCHsEXg/edit?usp=sharing)
 
-    + ```talk_abstract```, Speaker's talk abstract, you can get the speaker's talk abstract from the spreadsheet.
+    + ```talk_abstract```, Speaker's talk abstract, you can get the speaker's talk abstract from the [spreadsheet](https://docs.google.com/spreadsheets/d/1g8B45lvfdo9vMDCVqko-QhpmhzVhJYoVNtDkcCHsEXg/edit?usp=sharing)
 
 3.  See : [Sample Speaker Details](https://raw.githubusercontent.com/pyconid/pyconid2020/master/content/pages/speakers/guido-van-rossum.md)
 
