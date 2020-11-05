@@ -803,7 +803,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
   font-size: 15px;
   margin-bottom: 10px;
-  font-style: italic;
+  /* font-style: italic; */
 }
 
 #speakers .speaker .details .social {
@@ -1982,9 +1982,24 @@ body.mobile-nav-active #mobile-nav-toggle {
   max-height: 160px;
 }
 
+.merch-img {
+  max-width: 500px;
+}
+
+@media (max-width: 768px) {
+  .merch-img {
+    max-width: 480px;
+  }
+}
+
 @media (max-width: 600px) {
   .ticket-img {
     max-width: 240px;
     max-height: 80px;
   }
+
+  .merch-img {
+    max-width: 240px;
+  }
 }
+
