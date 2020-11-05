@@ -30,7 +30,7 @@ This ticket includes event access for two days and PyCon ID 2020 Exclusive Merch
 Here's some sneak peek of our merchandise. We will provide T-Shirt, Calendar, Mask, Sticer Set, and others.
 
 <div style="display: flex; flex-direction: row; justify-content: center" class="mb-4">
-        <img src="http://pycon.id/theme/img/ticket/merch-poster.jpg" class="ticket-img" />
+        <img src="http://pycon.id/theme/img/ticket/merch-poster.jpg" class="merch-img" />
 </div>
 
 
