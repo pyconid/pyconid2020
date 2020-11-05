@@ -17,7 +17,7 @@ For international participants or overseas shipping addresses, you can still get
 This ticket includes event access for two days. We will send the link for the event to your registered email address one week before the event.
 
 <div style="display: flex; flex-direction: row; justify-content: center" class="mb-4">
-        <img src="http://pycon.id/theme/img/ticket/ticket-normal.jpg" class="ticket-img" />
+        <img src="http://pycon.id/theme/img/ticket/ticket-regular.jpg" class="ticket-img" />
 </div>
 
 ### **Merchandise Ticket**
