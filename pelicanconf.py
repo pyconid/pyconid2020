@@ -53,8 +53,8 @@ ARTICLE_SAVE_AS = 'blog/{slug}.html'
 
 # Menu Item Config
 MENUITEMS = (
-    # ('Our Speakers', 'speakers'),
-    ('Call for Proposal', 'call-for-proposal'),
+    ('Our Speakers', 'speakers'),
+    # ('Call for Proposal', 'call-for-proposal'),
     ('Buy Ticket', 'ticket'),
     # ('Schedule', 'schedule'),
     # ('Speakers', 'speakers'),
