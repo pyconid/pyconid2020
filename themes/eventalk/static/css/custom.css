@@ -803,7 +803,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
   font-size: 15px;
   margin-bottom: 10px;
-  font-style: italic;
+  /* font-style: italic; */
 }
 
 #speakers .speaker .details .social {
