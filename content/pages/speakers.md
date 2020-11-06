@@ -7,8 +7,8 @@ keynote_speakers: Making a Bigger Impact with Open Source~Ariya Hidayat~ariya-hi
 speakers: Go Faster: Use Cython~Fauzan Erich Emmerling~fauzan-erich-emmerling.jpg~fauzan-erich-emmerling~femmerling~femmerling~femmerling
     Powering AI/ML workloads with Python, Docker, and CUDA on Windows 10 with Ubuntu on WSL~Hayden Barnes~hayden-barnes.jpg~hayden-barnes~thbarnes~sirredbeard~unixterminal
     No more tears 😢from project nightmares~Aman Sharma~aman-sharma.jpg~aman-sharma~amanintech~amanintech~amanintech
-    Clippy for Python - Get Heavy into Python Internals to build a real-time code companion~Dean Langsam~dean-langsam.jpg~dean-langsam~deanla~DeanLa~Dean_La
+    Clippy for Python - Get Heavy into Python Internals to build a real-time code companion~Dean Langsam~dean-langsam.png~dean-langsam~deanla~DeanLa~Dean_La
+    Web Crawling and Data Extraction in Python, from basic to advanced use cases~Kevin Lloyd Bernal~kevin-bernal.jpg~burnzz~burnzz
 
-    
 
 <!-- linkedin, github, twitter -->
