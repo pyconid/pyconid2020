@@ -9,6 +9,7 @@ speakers: Go Faster: Use Cython~Fauzan Erich Emmerling~fauzan-erich-emmerling.jp
     No more tears 😢from project nightmares~Aman Sharma~aman-sharma.jpg~aman-sharma~amanintech~amanintech~amanintech
     Clippy for Python - Get Heavy into Python Internals to build a real-time code companion~Dean Langsam~dean-langsam.png~dean-langsam~deanla~DeanLa~Dean_La
     Web Crawling and Data Extraction in Python, from basic to advanced use cases~Kevin Lloyd Bernal~kevin-bernal.jpg~burnzz~burnzz
+    Python and FOSS in Education for Generation Z~Gajendra Deshpande~gajendra-deshpande.jpg~gajendradeshpande~gcdeshpande~gcdeshpande
 
 
 <!-- linkedin, github, twitter -->
