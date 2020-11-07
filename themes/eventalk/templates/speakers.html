@@ -38,16 +38,16 @@
         <div class="row justify-content-center">
             {% for speaker in page.speakers %}
                 {% set list_speaker = speaker.split('~') %}
-                <div class="col-lg-2 col-md-4">
+                <div class="col-lg-2 col-md-4 mb-4">
                     <div class="speaker" data-aos="fade-up" data-aos-delay="100" style="height: 100%;">
                         <img src="{{ SITEURL }}/theme/img/speakers/{{ list_speaker[2] }}" alt="{{ list_speaker[2] }}" class="img-fluid">
                         <div class="details">
                             <h5 style="font-size:10pt;margin-bottom:7px!important;"><b><a href="{{ SITEURL + '/speaker/' + list_speaker[3] }}">{{ list_speaker[1] }}</a></b></h5>
                             <p style="font-size:8pt; ">{{ list_speaker[0] }}</p>
                             <div class="social">
-                                <a href="https://twitter.com/{{ list_speaker[5]}}" target="_blank"><i class="fa fa-twitter"></i></a>
-                                <a href="https://github.com/{{ list_speaker[4] }}" target="_blank"><i class="fa fa-github"></i></a>
-                                <a href="https://linkedin.com/in/{{ list_speaker[3]}}" target="_blank"><i class="fa fa-linkedin" target="_blank"></i></a>
+                                <a href="https://twitter.com/{{ list_speaker[6]}}" target="_blank"><i class="fa fa-twitter"></i></a>
+                                <a href="https://github.com/{{ list_speaker[5] }}" target="_blank"><i class="fa fa-github"></i></a>
+                                <a href="https://linkedin.com/in/{{ list_speaker[4]}}" target="_blank"><i class="fa fa-linkedin" target="_blank"></i></a>
                             </div>
                         </div>
                     </div>
