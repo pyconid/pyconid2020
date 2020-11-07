@@ -28,6 +28,11 @@ speakers: Go Faster: Use Cython~Fauzan Erich Emmerling~fauzan-erich-emmerling.jp
     identify our system defect using load test in locust~Raden Panji Maharjo Tri Wibowo~raden-panji-maharjo-tri-wibowo.JPG~raden-panji-maharjo-tri-wibowo~raden-panji-maharjo-wibowo-7a9176b6~RadenMahar
     Computer Vision Simulation in Artificial Environment with Python~Agus Prayudi~agus-prayudi.jpg~agus-prayudi~aguspray~aguspray001
     Building deep-learning models on geo-spatial data to fight dengue~Anand S~anand-s.jpg~anand-s~sanand0~sanand0~sanand0
-
+    Python worst Practices AKA Anti-Patterns~Phatibra Jagnere~phatibra-jagnere.png~pratibhajagnere~""~Pratibhajagnere
+    Psst, it’s a surprise (Simple Python Recommendation System Engine)!~Septiviana Savitri~septiviana-savitri.jpg~septiviana-savitri~SeptivianaSavitri~vitritw
+    The story behind SPERO: how to make use of PyQt5 for your non-GUI technical apps~Indar Sugiarto~indar-sugiarto.jpg~indar-sugiarto~indarsugiarto~""
+    Python for Finance: Markowitz's Portfolio Optimization~Yevonnael Andrew~yevonnael-andrew.jpg~yevonnael-andrew-3351b9a7~""~""
+    Developing More Secure Testing on AWS with PyTest~Renaldi Gondosubroto~renaldi-gondosubroto.png~renaldigondosubroto~""~Renaldig
+    Text Preprocessing Pipeline for Bahasa ​​using Python: Concept, Steps, Tools, and Examples~Kuncahyo Setyo Nugroho~kuncahyono-setyo-nugroho.jpg~ksnugroho~ksnugroho~ksnugroho26
 
 <!-- linkedin, github, twitter -->
