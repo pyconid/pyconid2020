@@ -28,6 +28,11 @@ speakers: Go Faster: Use Cython~Fauzan Erich Emmerling~fauzan-erich-emmerling.jp
     identify our system defect using load test in locust~Raden Panji Maharjo Tri Wibowo~raden-panji-maharjo-tri-wibowo.JPG~raden-panji-maharjo-tri-wibowo~raden-panji-maharjo-wibowo-7a9176b6~RadenMahar
     Computer Vision Simulation in Artificial Environment with Python~Agus Prayudi~agus-prayudi.jpg~agus-prayudi~aguspray~aguspray001
     Building deep-learning models on geo-spatial data to fight dengue~Anand S~anand-s.jpg~anand-s~sanand0~sanand0~sanand0
+    Robotic Process Automation in Python~Andi Dinata~rsz_andi-dinata.jpg~andi-dinata~andi-dinata-061368102~mdinata~mcdinata
+    What I have learned in building a production website that serves PyCon APAC 2020 within 4 days~Ing Wei Tang~ing-wei-tang.png~ing-wei-tang~""~tangingw
+    Explain your Marketing Mix Model using SHAP~Parlinggoman Hasibuan~rsz_parlinggoman-hasibuan.png~parlinggoman-hasibuan~goman~linggom
+    Detecting Spam Texts with Transformers~Salahuddin Muhammad Iqbal~salahuddin-muhammad-iqbal.jpeg~salahuddin-muhammad-iqbal~salahuddin-muhammad-iqbal-53940399~ivokun~ivokun
+    Property Based Testing menggunakan Hypothesis~Miftah Muhammad~miftah-muhammad.jpeg~miftah-muhammad~miftah-muhammad~mfthmhmmd
 
 
 <!-- linkedin, github, twitter -->
