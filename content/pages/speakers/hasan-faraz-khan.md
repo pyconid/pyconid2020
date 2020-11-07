@@ -1,0 +1,12 @@
+title: Speakers
+Template: speaker-details
+slug: speaker/hasan-faraz-khan
+speaker_name: Hasan Faraz Khan
+speaker_from: Aligarh Muslim University
+speaker_talk_title: Containerizing Python Web Apps with Docker, Django, Flask and Nginx
+speaker_img: hasan-faraz-khan.jpg
+speaker_twitter: batcypher
+speaker_github: farazkhanfk7
+speaker_linkedin: farazkhanfk7
+speaker_bio: I am a third-year student at the Department of Computer Science, AMU and currently pursuing my Bachelor of Science Degree. Currently I am working on projects related to Machine Learning and AI. Apart from this, I also like creating web/mobile applications and deploying them. I am a Deep Learning enthusiast but I am also tilted towards Web Development and DevOps. I like contributing to Open-Source projects and I am actively looking for such communities to work with. I also have an interest in Self-driven cars and autonomous vehicle. I am still an undergrad student and there’s still so much more to learn and this is why when it comes to programming and development stuff I don’t like to miss any opportunity. I’ve been following PyCon from a long time and this is the first time I have decided to come up and apply for a lightning talk where I would love to talk about Python stuff.  
+talk_abstract: Docker enables you to rapidly deploy server environments in “containers.” Developing Python projects in local environments can get pretty challenging if more than one project is being developed at the same time. Compiling a project may take time as we need to manage versions, set up dependencies and configurations for it. We’ll first take a look at how we can use docker-compose to deploy our Django application with a Postgresql database. I’ll be using slides and code snaps to demonstrate how to create Dockerfile and docker-compose.yml file to run your web app and postgres database together. We’ll look at a step-by-step process to containerize our Flask web app to use Nginx and uWSGI server and also how to create configurations files. Although, even many beginner developers are already familiar with this topic but I still decided to talk on this because DevOps can be very helpful for Python development and save us a lot of time.

@@ -11,6 +11,14 @@ speakers: Go Faster: Use Cython~Fauzan Erich Emmerling~fauzan-erich-emmerling.jp
     Web Crawling and Data Extraction in Python, from basic to advanced use cases~Kevin Lloyd Bernal~kevin-bernal.jpg~kevin-bernal~burnzz~burnzz
     Python and FOSS in Education for Generation Z~Gajendra Deshpande~gajendra-deshpande.jpg~gajendradeshpande~gajendradeshpande~gcdeshpande~gcdeshpande
     Make your Data Application using The Easiest Framework, Streamlit~Muhammad Sifa'ul Rizky~muhammad-rizky-1.jpg~muhammad-rizky~""~rizkysifaul~rizky_sifaul
+    ETL Using Pandas to GCP in Seconds~Adam Widi Bagaskara~adam-widi-bagaskara.jpg~adamwdb~adamwdb~adamwdb
+    The Experience of Fast with FastAPI~Yahya Fadhluloh Al Fatih~yahya-fadhluloh-al-fatih.png~yahya-fadhlulloh-al-fatih-a568a455~k1m0ch1~BukanYahya
+    Publishing well-formed Python packages~Julin Shaji~julin-shanji.jpg~""~ju-sh~""
+    Preparing a catwalk for your models: how to deploy within seconds~Yosef Ardhito Winatmoko~yosef-ardhito-winatmoko.jpg~yosef-ardhito-winatmoko-053a5754~yoseflaw~yoseflaw
+    Gold Distribution Estimation using Kriging Method with Geostatspy Library~Mordhekai~mordhekai.jpeg~mordekhai~""~""
+    Containerizing Python Web Apps with Docker, Django, Flask and Nginx~Hasan Faraz Khan~hasan-faraz-khan.jpg~farazkhanfk7~farazkhanfk7~batcypher
+    Making Machine Learning Model Deployments Magical with Merlin~Arief Rahmansyah~arief-rahmansyah.jpg~ariefrahmansyah~ariefrahmansyah~ariefr23
+    Top Notch Categorical Encoding using Python~Rahul Bhatia~rahul-bhatia.jpg~rahul-bhatia-67ba08121~rbhatia46~rbhatia46
     Using Python to Create A Local Law in New York City~Nurvirta Monarizqa~nurvirta-monarizqa.png~nurvirta-monarizqa~nmonarizqa~nmonarizqa~nmonarizqa
     Sphinxing It!~Divya Mohan~divya-mohan.jpg~divya-mohan~divya-mohan0209~divya-mohan0209~Divya_Mohan02
     Machine Learning based Drug Discovery & Repurposing~Aries Fitriawan~aries-fitriawan.jpg~aries-fitriawan~ariesfitriawan~rietaros
