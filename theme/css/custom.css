@@ -1031,6 +1031,36 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 0;
 }
 
+@media (max-width: 480px) {
+  #schedule .nav-tabs a {
+    padding: 4px 30px;
+    font-size: 14px;
+  }
+
+  #schedule .schedule-item {
+    font-size: 12px !important;
+  }
+
+  #schedule .schedule-item h4 {
+    font-size: 12px !important;
+    font-weight: 600;
+    /* margin-bottom: 5px; */
+  }
+  
+  #schedule .schedule-item h4 span {
+    font-style: italic;
+    color: #19328e;
+    font-weight: normal;
+    font-size: 12px !important;
+  }
+  
+  #schedule .schedule-item p {
+    /* font-style: italic; */
+    color: #152b79;
+    margin-bottom: 0;
+  }
+}
+
 /*--------------------------------------------------------------
 # Venue Section
 --------------------------------------------------------------*/
