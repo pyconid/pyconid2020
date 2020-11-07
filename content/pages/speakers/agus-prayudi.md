@@ -2,7 +2,7 @@ title: Speakers
 Template: speaker-details
 slug: speaker/agus-prayudi
 speaker_name: Agus Prayudi
-speaker_from: -
+speaker_from: Computer Vision Engineer
 speaker_talk_title: Computer Vision Simulation in Artificial Environment with Python
 speaker_img: agus-prayudi.jpg
 speaker_github: aguspray001

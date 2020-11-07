@@ -33,6 +33,11 @@ speakers: Go Faster: Use Cython~Fauzan Erich Emmerling~fauzan-erich-emmerling.jp
     Explain your Marketing Mix Model using SHAP~Parlinggoman Hasibuan~rsz_parlinggoman-hasibuan.png~parlinggoman-hasibuan~goman~linggom
     Detecting Spam Texts with Transformers~Salahuddin Muhammad Iqbal~salahuddin-muhammad-iqbal.jpeg~salahuddin-muhammad-iqbal~salahuddin-muhammad-iqbal-53940399~ivokun~ivokun
     Property Based Testing menggunakan Hypothesis~Miftah Muhammad~miftah-muhammad.jpeg~miftah-muhammad~miftah-muhammad~mfthmhmmd
-
+    Python worst Practices AKA Anti-Patterns~Phatibra Jagnere~phatibra-jagnere.png~pratibhajagnere~""~Pratibhajagnere
+    Psst, it’s a surprise (Simple Python Recommendation System Engine)!~Septiviana Savitri~septiviana-savitri.jpg~septiviana-savitri~SeptivianaSavitri~vitritw
+    The story behind SPERO: how to make use of PyQt5 for your non-GUI technical apps~Indar Sugiarto~indar-sugiarto.jpg~indar-sugiarto~indarsugiarto~""
+    Python for Finance: Markowitz's Portfolio Optimization~Yevonnael Andrew~yevonnael-andrew.jpg~yevonnael-andrew-3351b9a7~""~""
+    Developing More Secure Testing on AWS with PyTest~Renaldi Gondosubroto~renaldi-gondosubroto.png~renaldigondosubroto~""~Renaldig
+    Text Preprocessing Pipeline for Bahasa ​​using Python: Concept, Steps, Tools, and Examples~Kuncahyo Setyo Nugroho~kuncahyono-setyo-nugroho.jpg~ksnugroho~ksnugroho~ksnugroho26
 
 <!-- linkedin, github, twitter -->
