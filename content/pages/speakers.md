@@ -11,6 +11,12 @@ speakers: Go Faster: Use Cython~Fauzan Erich Emmerling~fauzan-erich-emmerling.jp
     Web Crawling and Data Extraction in Python, from basic to advanced use cases~Kevin Lloyd Bernal~kevin-bernal.jpg~kevin-bernal~burnzz~burnzz
     Python and FOSS in Education for Generation Z~Gajendra Deshpande~gajendra-deshpande.jpg~gajendradeshpande~gajendradeshpande~gcdeshpande~gcdeshpande
     Make your Data Application using The Easiest Framework, Streamlit~Muhammad Sifa'ul Rizky~muhammad-rizky-1.jpg~muhammad-rizky~""~rizkysifaul~rizky_sifaul
+    Using Python to Create A Local Law in New York City~Nurvirta Monarizqa~nurvirta-monarizqa.png~nurvirta-monarizqa~nmonarizqa~nmonarizqa~nmonarizqa
+    Sphinxing It!~Divya Mohan~divya-mohan.jpg~divya-mohan~divya-mohan0209~divya-mohan0209~Divya_Mohan02
+    Machine Learning based Drug Discovery & Repurposing~Aries Fitriawan~aries-fitriawan.jpg~aries-fitriawan~ariesfitriawan~rietaros
+    Type Hinting: Why it should be your best friend~Arif Qodari~arif-qodari.jpg~arif-qodari~arifqodari~arifqodari~arifqodari
+    Introduction to Probabilistic Programming with PyMC3~Ali Akbar Septiandri~ali-akbar-septiandri.jpg~ali-akbar-septiandri~aaseptiandri~aliakbars~aliakbars
+    Is your data fit to fit() ?~Nicholas Doiron~nick-doiron.jpg~nick-doiron~""~mapmeld~mapmeld
 
 
 <!-- linkedin, github, twitter -->
