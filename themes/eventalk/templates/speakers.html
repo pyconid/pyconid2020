@@ -39,7 +39,7 @@
             {% for speaker in page.speakers %}
                 {% set list_speaker = speaker.split('~') %}
                 <div class="col-lg-2 col-md-4 mb-4">
-                    <div class="speaker" data-aos="fade-up" data-aos-delay="100" style="height: 100%;">
+                    <div class="speaker" data-aos="fade-up" data-aos-delay="100" style="height: 95%;">
                         <img src="{{ SITEURL }}/theme/img/speakers/{{ list_speaker[2] }}" alt="{{ list_speaker[2] }}" class="img-fluid">
                         <div class="details">
                             <h5 style="font-size:10pt;margin-bottom:7px!important;"><b><a href="{{ SITEURL + '/speaker/' + list_speaker[3] }}">{{ list_speaker[1] }}</a></b></h5>
