@@ -10,11 +10,11 @@ speakers: Go Faster: Use Cython~Fauzan Erich Emmerling~fauzan-erich-emmerling.pn
     Clippy for Python - Get Heavy into Python Internals to build a real-time code companion~Dean Langsam~dean-langsam.png~dean-langsam~deanla~DeanLa~Dean_La
     Web Crawling and Data Extraction in Python, from basic to advanced use cases~Kevin Lloyd Bernal~kevin-bernal.png~kevin-bernal~burnzz~burnzz
     Python and FOSS in Education for Generation Z~Gajendra Deshpande~gajendra-deshpande.png~gajendra-deshpande~gajendradeshpande~gcdeshpande~gcdeshpande
-    Make your Data Application using The Easiest Framework, Streamlit~Muhammad Sifa'ul Rizky~muhammad-rizky-1.png~muhammad-rizky~""~rizkysifaul~rizky_sifaul
+    Make your Data Application using The Easiest Framework, Streamlit~Muhammad Sifa'ul Rizky~muhammad-rizky.png~muhammad-rizky~""~rizkysifaul~rizky_sifaul
     ETL Using Pandas to GCP in Seconds~Adam Widi Bagaskara~adam-widi-bagaskara.png~adam-widi-bagaskara~adamwdb~adamwdb~adamwdb
     The Experience of Fast with FastAPI~Yahya Fadhluloh Al Fatih~yahya-fadhluloh-al-fatih.png~yahya-fadhluloh-al-fatih~yahya-fadhlulloh-al-fatih-a568a455~k1m0ch1~BukanYahya
     Publishing well-formed Python packages~Julin Shaji~julin-shanji.png~julin-shanji~""~ju-sh~""
-    Preparing a catwalk for your models: how to deploy within seconds~Yosef Ardhito Winatmoko~yosef-ardhito-winatmoko.png~yosef-ardhito-winatmoko~yosef-ardhito-winatmoko-053a5754~yoseflaw~yoseflaw
+    Preparing a catwalk for your models: how to deploy within seconds~Yosef Ardhito Winatmoko~yosef-ardhito-winatmoko.jpg~yosef-ardhito-winatmoko~yosef-ardhito-winatmoko-053a5754~yoseflaw~yoseflaw
     Gold Distribution Estimation using Kriging Method with Geostatspy Library~Mordhekai~mordhekai.png~mordhekai~mordekhai~""~""
     Containerizing Python Web Apps with Docker, Django, Flask and Nginx~Hasan Faraz Khan~hasan-faraz-khan.png~hasan-faraz-khan~farazkhanfk7~farazkhanfk7~batcypher
     Making Machine Learning Model Deployments Magical with Merlin~Arief Rahmansyah~arief-rahmansyah.png~arief-rahmansyah~ariefrahmansyah~ariefrahmansyah~ariefr23
