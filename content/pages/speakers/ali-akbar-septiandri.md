@@ -2,7 +2,7 @@ title: Speakers
 Template: speaker-details
 slug: speaker/ali-akbar-septiandri
 speaker_name: Ali Akbar Septiandri
-speaker_from: Ruangguru; Universitas Al Azhar Indonesia; Adjunct Lecturer
+speaker_from: Adjunct Lecturer - Universitas Al Azhar Indonesia
 speaker_talk_title: Introduction to Probabilistic Programming with PyMC3
 speaker_img: ali-akbar-septiandri.jpg
 speaker_twitter: aliakbars
