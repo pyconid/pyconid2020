@@ -803,7 +803,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
   font-size: 15px;
   margin-bottom: 10px;
-  font-style: italic;
+  /* font-style: italic; */
 }
 
 #speakers .speaker .details .social {
@@ -1013,7 +1013,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #schedule .schedule-item h4 {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 600;
   margin-bottom: 5px;
 }
@@ -1026,9 +1026,39 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #schedule .schedule-item p {
-  font-style: italic;
+  /* font-style: italic; */
   color: #152b79;
   margin-bottom: 0;
+}
+
+@media (max-width: 480px) {
+  #schedule .nav-tabs a {
+    padding: 4px 30px;
+    font-size: 14px;
+  }
+
+  #schedule .schedule-item {
+    font-size: 12px !important;
+  }
+
+  #schedule .schedule-item h4 {
+    font-size: 12px !important;
+    font-weight: 600;
+    /* margin-bottom: 5px; */
+  }
+  
+  #schedule .schedule-item h4 span {
+    font-style: italic;
+    color: #19328e;
+    font-weight: normal;
+    font-size: 12px !important;
+  }
+  
+  #schedule .schedule-item p {
+    /* font-style: italic; */
+    color: #152b79;
+    margin-bottom: 0;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -1982,9 +2012,24 @@ body.mobile-nav-active #mobile-nav-toggle {
   max-height: 160px;
 }
 
+.merch-img {
+  max-width: 500px;
+}
+
+@media (max-width: 768px) {
+  .merch-img {
+    max-width: 480px;
+  }
+}
+
 @media (max-width: 600px) {
   .ticket-img {
     max-width: 240px;
     max-height: 80px;
   }
+
+  .merch-img {
+    max-width: 240px;
+  }
 }
+

@@ -1,6 +1,6 @@
 {%extends 'base.html'%}
 
-{%block title%}{{page.talk_title}} - {{page.speaker_name}}{%endblock%}
+{%block title%}{{page.speaker_name}} - {{page.speaker_talk_title}}{%endblock%}
 {% block meta_description %} {{ page.meta_description }} {% endblock %}
 
 {% block content %}
@@ -9,25 +9,31 @@
   <div class="container">
     <div class="section-header">
       <h2>Speaker Details</h2>
-      <p>{{ page.speaker_talk }}</p>
+      <p>{{ page.speaker_talk_title }}</p>
     </div>
 
     <div class="row">
-      <div class="col-md-6">
+      <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
         <img src="{{ SITEURL }}/theme/img/speakers/{{ page.speaker_img }}" alt="{{ page.speaker_name }}" class="img-fluid">
       </div>
 
-      <div class="col-md-6">
+      <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
         <div class="details">
           <h2>{{ page.speaker_name }}</h2>
           <h6><i>{{ page.speaker_from }}</i></h6>
           
           {{ page.speaker_bio }}
+
+          <br />
+          <br />
+          
+          {{ page.talk_abstract }}
+
           <hr>
           <div class="social">
-            <a href="{{ page.speaker_twitter }}"><i class="fa fa-twitter"></i></a>
-            <a href="{{ page.speaker_facebook }}"><i class="fa fa-facebook"></i></a>
-            <a href="{{ page.speaker_linkedin }}"><i class="fa fa-linkedin"></i></a>
+              <a href="https://twitter.com/{{ page.speaker_twitter}}" target="_blank"><i class="fa fa-twitter"></i></a>
+              <a href="https://github.com/{{ page.speaker_github }}" target="_blank"><i class="fa fa-github"></i></a>
+              <a href="https://linkedin.com/in/{{ page.speaker_linkedin }}" target="_blank"><i class="fa fa-linkedin"></i></a>
           </div>
         </div>
       </div>
@@ -37,5 +43,5 @@
 
 </section>
 
-{% include 'sponsors-list.html' %}
+{#{% include 'sponsors-list.html' %}#}
 {% endblock %}
