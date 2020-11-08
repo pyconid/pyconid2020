@@ -2,7 +2,7 @@ title: Patron
 Template: patron
 meta_description: We are proud and honoured to have the support from our Patrons for their extraordinary support and ongoing commitment to the PyCon Indonesia 2020.
 patrons: Data Scientist at Grab Singapore~Ainun Najib~ainun-najib.jpg~https://kawalcovid19.id/
-    Employee at PT. Xapiens Teknologi Indonesia~Danny Primajaya
+    Employee at PT. Xapiens Teknologi Indonesia~Danny Primajaya~placeholder.jpg
     Tukang Scraping~Sigit Dewanto~sigit-dewanto.jpg~https://seagatesoft.wordpress.com
     Computer Vision Enthusiast~dmaharika~dima-dinama.jpg~https://dinama.id
      ~Irvan Putra~irvan-putra.jpg~""
