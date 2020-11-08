@@ -8,7 +8,7 @@ speakers: Go Faster: Use Cython~Fauzan Erich Emmerling~fauzan-erich-emmerling.pn
     Powering AI/ML workloads with Python, Docker, and CUDA on Windows 10 with Ubuntu on WSL~Hayden Barnes~hayden-barnes.png~hayden-barnes~thbarnes~sirredbeard~unixterminal
     No more tears 😢from project nightmares~Aman Sharma~aman-sharma.png~aman-sharma~amanintech~amanintech~amanintech
     Clippy for Python - Get Heavy into Python Internals to build a real-time code companion~Dean Langsam~dean-langsam.png~dean-langsam~deanla~DeanLa~Dean_La
-    Web Crawling and Data Extraction in Python, from basic to advanced use cases~Kevin Lloyd Bernal~kevin-bernal.png~kevin-bernal~burnzz~burnzz
+    Web Crawling and Data Extraction in Python, from basic to advanced use cases~Kevin Lloyd Bernal~kevin-bernal.png~kevin-bernal~burnzz~burnzz~KevinCookinData
     Python and FOSS in Education for Generation Z~Gajendra Deshpande~gajendra-deshpande.png~gajendra-deshpande~gajendradeshpande~gcdeshpande~gcdeshpande
     Make your Data Application using The Easiest Framework, Streamlit~Muhammad Sifa'ul Rizky~muhammad-rizky.png~muhammad-rizky~""~rizkysifaul~rizky_sifaul
     ETL Using Pandas to GCP in Seconds~Adam Widi Bagaskara~adam-widi-bagaskara.png~adam-widi-bagaskara~adamwdb~adamwdb~adamwdb
