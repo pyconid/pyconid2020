@@ -1,0 +1,34 @@
+{%extends 'base.html'%}
+
+{%block title%}
+    {{page.title}}
+{%endblock%}
+{% block meta_description %} {{ page.meta_description }} {% endblock %}
+
+{% block content %}
+<section id="speakers" class="section-with-bg default-page">
+    <div class="container" data-aos="fade-up">
+        <div class="section-header">
+            <h2>Thanks to Our Patrons</h2>
+            <p>We are proud and honoured to have the support from our Patrons for their extraordinary support and ongoing commitment to the PyCon Indonesia 2020.</p>
+        </div>
+        <div class="row justify-content-center">
+            {% for patron in page.patrons %}
+                {% set list_patron = patron.split('~') %}
+                <div class="col-lg-2 col-md-4 mb-4">
+                    <div class="speaker" data-aos="fade-up" data-aos-delay="100" style="height: 100%;">
+                        <img src="{{ SITEURL }}/theme/img/patron/{{ list_patron[2] }}" alt="{{ list_patron[2] }}" class="img-fluid">
+                        <div class="details patron">
+                            <h5 style="font-size:10pt;margin-bottom:7px!important;"><b><a href="{{list_patron[3]}}">{{ list_patron[1] }}</a></b></h5>
+                            <p style="font-size:8pt; ">{{ list_patron[0] }}</p>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+
+</section><!-- End Speakers Section -->
+
+{#{% include 'sponsors-list.html' %}#}
+{% endblock  %}
