@@ -4,3 +4,4 @@ output/
 venv/
 pelicanconf.pyc
 .env
+.DS_Store

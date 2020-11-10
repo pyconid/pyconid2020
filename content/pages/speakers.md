@@ -39,5 +39,8 @@ speakers: Go Faster: Use Cython~Fauzan Erich Emmerling~fauzan-erich-emmerling.pn
     Python for Finance: Markowitz's Portfolio Optimization~Yevonnael Andrew~yevonnael-andrew.png~yevonnael-andrew~yevonnael-andrew-3351b9a7~""~""
     Developing More Secure Testing on AWS with PyTest~Renaldi Gondosubroto~renaldi-gondosubroto.png~renaldi-gondosubroto~""~Renaldig
     Text Preprocessing Pipeline for Bahasa ​​using Python: Concept, Steps, Tools, and Examples~Kuncahyo Setyo Nugroho~kuncahyono-setyo-nugroho.png~kuncahyo-setyo-nugroho~ksnugroho~ksnugroho~ksnugroho26
+    Managing Data Science Project in Microsoft Ecosystem~Ridi Ferdiana~ridi-ferdiana.jpg~ridif~""~ridife~ridi-ferdiana
+    Cloud Native Development for Python~Johanes Alexander~johanes-alexander.png~johanesa~alexanderv21~alexanderv21~johanes-alexander
+    TinyML with MicroPython~Andri Yadi~andri-yadi.jpg~andriyadi~andriyadi~andri_yadi~andri-yadi
 
 <!-- linkedin, github, twitter -->
