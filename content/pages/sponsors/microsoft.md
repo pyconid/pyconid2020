@@ -12,7 +12,7 @@ On this session, Ridi will tell you a story about how to manage data science pro
 
 Ridi is certified trainer for Microsoft +12 years, Microsoft MVP in developer tools for + 14 years, and post-doctorate researcher in software engineering.
 
-## 2. "Cloud Native Development for Python" by [Johanes Alexander](https://www.linkedin.com/in/johanesa/)
+## 2. "Cloud Native Development for Python" by [Johanes Alexander](https://www.linkedin.com/in/johanesa/) (Cloud Solution Architect at Microsoft)
 
 On this session, Jo will talk about "Cloud Native Development for Python" which focus on offline/online development (using WSL, Codespaces) and DevOps (CI/CD and IaC).
 
