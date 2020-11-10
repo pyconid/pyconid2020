@@ -2,6 +2,10 @@ title: Microsoft
 Template: general
 slug: sponsors/microsoft
 
+<div style="display: flex; flex-direction: row; justify-content: center" class="mb-4">
+        <img src="http://pycon.id/theme/img/supporters/logo-microsoft.png" class="img-fluid" width="400" />
+</div>
+
 Welcome to Microsoft Virtual Booth at PyCon Indonesia 2020, #Pythonistas! Hope that you all read from 1) Talks from Microsoft in PyCon ID 2020, to remaining parts below like 2) #Microsoft #Azure and Python, and 3) More resources.  🐍
 
 # 1. Talks from Microsoft in PyCon ID 2020
@@ -46,6 +50,7 @@ Also, read about what Microsoft loves about PyCon and the Python community on th
 # 3. More resources
 
 More various content for Python users is available at Microsoft [Docs](https://docs.microsoft.com/id-id/) and [Learn](https://docs.microsoft.com/id-id/learn/).
+
 * [Azure for Python Developers](https://docs.microsoft.com/id-id/azure/developer/python/): Deploy your Python code to Azure for web apps, serverless apps, containers, and machine learning models. 
 Take advantage of the Azure libraries (SDK) for Python to programmatically access the full range of Azure services including storage, databases, pre-built AI capabilities, and much more.
 * [Build an AI web app by using Python and Flask](https://docs.microsoft.com/id-id/learn/modules/python-flask-build-ai-web-app/): Use Python, Flask, and Azure Cognitive Services to build a web app that incorporates AI.
