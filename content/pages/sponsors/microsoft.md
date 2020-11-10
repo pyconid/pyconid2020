@@ -9,7 +9,7 @@ Welcome to Microsoft Virtual Booth at PyCon Indonesia 2020, #Pythonistas! Hope t
 ## 1. "Managing Data Science Project in Microsoft Ecosystem" by [Ridi Ferdiana](https://www.linkedin.com/in/ridif/) (Microsoft MVP)
 
 <div style="display: flex; flex-direction: row; justify-content: center" class="mb-4">
-        <img src="http://pycon.id/theme/img/speakers/ridi-ferdiana.png" class="img-fluid" />
+        <img src="http://pycon.id/theme/img/speakers/ridi-ferdiana.png" class="img-fluid" width="400" />
 </div>
 
 On this session, Ridi will tell you a story about how to manage data science project with MLOps, Microsoft Azure, and Visual Studio.
@@ -19,7 +19,7 @@ Ridi is certified trainer for Microsoft +12 years, Microsoft MVP in developer to
 ## 2. "Cloud Native Development for Python" by [Johanes Alexander](https://www.linkedin.com/in/johanesa/) (Cloud Solution Architect at Microsoft)
 
 <div style="display: flex; flex-direction: row; justify-content: center" class="mb-4">
-        <img src="http://pycon.id/theme/img/speakers/johanes-alexander.png" class="img-fluid" />
+        <img src="http://pycon.id/theme/img/speakers/johanes-alexander.png" class="img-fluid" width="400" />
 </div>
 
 On this session, Jo will talk about "Cloud Native Development for Python" which focus on offline/online development (using WSL, Codespaces) and DevOps (CI/CD and IaC).
@@ -29,7 +29,7 @@ Jo is an experienced data architect; designing an end to end data solution to fu
 ## 3. "TinyML with MicroPython" by [Andri Yadi](https://www.linkedin.com/in/andriyadi/) (CEO, DycodeX; Vice Chairman, Indonesia IoT Association)
 
 <div style="display: flex; flex-direction: row; justify-content: center" class="mb-4">
-        <img src="http://pycon.id/theme/img/speakers/andri-yadi.png" class="img-fluid" />
+        <img src="http://pycon.id/theme/img/speakers/andri-yadi.png" class="img-fluid" width="400" />
 </div>
 
 Machine Learning not only belongs to the Cloud. With TinyML, ML now runs on Microcontrollers, and better yet, we can work with it using MicroPython.  
