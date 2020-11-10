@@ -9,7 +9,7 @@ Welcome to Microsoft Virtual Booth at PyCon Indonesia 2020, #Pythonistas! Hope t
 ## 1. "Managing Data Science Project in Microsoft Ecosystem" by [Ridi Ferdiana](https://www.linkedin.com/in/ridif/) (Microsoft MVP)
 
 <div style="display: flex; flex-direction: row; justify-content: center" class="mb-4">
-        <img src="http://pycon.id/theme/img/speakers/ridi-ferdiana.jpg" class="img-fluid" />
+        <img src="http://pycon.id/theme/img/speakers/ridi-ferdiana.png" class="img-fluid" />
 </div>
 
 On this session, Ridi will tell you a story about how to manage data science project with MLOps, Microsoft Azure, and Visual Studio.
@@ -29,7 +29,7 @@ Jo is an experienced data architect; designing an end to end data solution to fu
 ## 3. "TinyML with MicroPython" by [Andri Yadi](https://www.linkedin.com/in/andriyadi/) (CEO, DycodeX; Vice Chairman, Indonesia IoT Association)
 
 <div style="display: flex; flex-direction: row; justify-content: center" class="mb-4">
-        <img src="http://pycon.id/theme/img/speakers/andri-yadi.jpg" class="img-fluid" />
+        <img src="http://pycon.id/theme/img/speakers/andri-yadi.png" class="img-fluid" />
 </div>
 
 Machine Learning not only belongs to the Cloud. With TinyML, ML now runs on Microcontrollers, and better yet, we can work with it using MicroPython.  

@@ -4,7 +4,7 @@ slug: speaker/ridi-ferdiana
 speaker_name: Ridi Ferdiana
 speaker_from: Microsoft MVP 
 speaker_talk_title: Managing Data Science Project in Microsoft Ecosystem
-speaker_img: ridi-ferdiana.jpg
+speaker_img: ridi-ferdiana.png
 speaker_twitter: ridife
 speaker_github: 
 speaker_linkedin: ridif

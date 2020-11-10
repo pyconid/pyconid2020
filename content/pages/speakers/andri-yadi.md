@@ -4,7 +4,7 @@ slug: speaker/andri-yadi
 speaker_name: Andri Yadi
 speaker_from: CEO, DycodeX; Vice Chairman, Indonesia IoT Association
 speaker_talk_title: TinyML with MicroPython
-speaker_img: andri-yadi.jpg
+speaker_img: andri-yadi.png
 speaker_twitter: andri_yadi
 speaker_github: andriyadi
 speaker_linkedin: andriyadi
