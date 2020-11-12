@@ -4,7 +4,7 @@ author: Sigit Dewanto
 date: 12-11-2020 16:49
 category: Sponsor
 slug: announcing-vonage-as-gold-sponsor
-image: blog-vonage.png
+image: logo-vonage.png
 meta_description: Vonage logo, PyCon ID 2020 sponsor
 
 We are excited to introduce [Vonage](https://nexmo.dev/PyconID) as a Gold Sponsor for PyCon Indonesia 2020.

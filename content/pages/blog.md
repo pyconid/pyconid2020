@@ -8,3 +8,4 @@ articles: PyCon ID 2020 is Here~Dima Maharika Dinama~25-09-2020 10:15~pycon-id-2
     Announcing Scout APM as a Gold Sponsor~Sigit Dewanto~18-10-2020 20:34~announcing-scout-apm-as-gold-sponsor~logo-scoutapm.png
     Announcing Qiscus as a Silver Sponsor~Sigit Dewanto~19-10-2020 18:55~announcing-qiscus-as-silver-sponsor~logo-qiscus.png
     Announcing RemoteWorkerID as a Gold Sponsor~Sigit Dewanto~31-10-2020 19:37~announcing-rwid-as-gold-sponsor~logo-rwid.jpg
+    Announcing Vonage as a Gold Sponsor~Sigit Dewanto~12-11-2020 16:49~announcing-vonage-as-gold-sponsor~logo-vonage.png
