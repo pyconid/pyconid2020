@@ -43,7 +43,7 @@ speakers: Go Faster: Use Cython~Fauzan Erich Emmerling~fauzan-erich-emmerling.pn
     Cloud Native Development for Python~Johanes Alexander~johanes-alexander.png~johanes-alexander~johanesa~alexanderv21~alexanderv21~johanes-alexander
     TinyML with MicroPython~Andri Yadi~andri-yadi.png~andri-yadi~andriyadi~andriyadi~andri_yadi~andri-yadi
     Make Indonesia World #1 Remote Worker Provider~Eko S. Wibowo~eko-suprapto-wibowo.png~eko-suprapto-wibowo~eko-s-wibowo~swdevbali~swdevbali
-    Everything Counts! Python + IoT + Conectivity #Tech4Good~Diana Rodriguez~diana-rodriguez.jpg~diana-rodriguez~nerdattack82~alphacentauri82~cotufa82
+    Everything Counts! Python + IoT + Conectivity #Tech4Good~Diana Rodriguez~diana-rodriguez.png~diana-rodriguez~nerdattack82~alphacentauri82~cotufa82
 
 
 <!-- linkedin, github, twitter -->
