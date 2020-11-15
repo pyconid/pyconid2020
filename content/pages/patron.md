@@ -14,3 +14,10 @@ patrons: Data Scientist at Grab Singapore~Ainun Najib~ainun-najib.jpg~https://ka
      ~Boedy~setia-budi.jpg
     Belajar, Mengajar, Beramal~Aldion~aldion-amirrul.jpg~https://github.com/aldamr01
     Front End Engineer~Adif Dwi Maulana~adif-dwi-maulana.jpg~https://adifdwimaulana.com/
+    software engineer, community partner at mks.py~oon arfiandwi~oon-arfiandwi.jpg~https://oo.or.id
+    Saya seorang pembelajar dan selalu berusaha untuk memberikan manfaat kepada orang lain.~Rizqi Adiputra~rizqi-adiputra.jpg~http://rizqiadiputra.com/
+    Lifelong Learner~nhytanyuita~yuanita-retno.jpg~https://yrfp307.github.io/profile/
+    Nose-picking enthusiast. JRPG aficionado. E-commerce, Digital Strategy, and accidental Data Science guy. ex @TripAdvisor @Teespring~Lutfi Zuchri~lutfi-zuchri.jpg~https://www.zuchri.com
+     ~Farah Clara~farah-clarasinta.jpg
+     ~Gio~giovanni-sakti.jpg~http://perkodi.org
+     ~faishal zhafran~faishal.jpg
