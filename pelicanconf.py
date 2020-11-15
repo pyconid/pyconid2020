@@ -55,7 +55,7 @@ ARTICLE_SAVE_AS = 'blog/{slug}.html'
 MENUITEMS = (
     ('Our Speakers', 'speakers'),
     # ('Call for Proposal', 'call-for-proposal'),
-    ('Buy Ticket', 'ticket'),
+    ('Ticket', 'ticket'),
     # ('Schedule', 'schedule'),
     # ('Speakers', 'speakers'),
     ('Sponsorship', 'sponsor'),
